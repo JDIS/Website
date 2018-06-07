@@ -21,11 +21,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jdis.ca" # the base hostname & protocol for your site, e.g. http://example.com
-github_link: "https://github.com/JDIS"
 facebook_page_link: "https://www.facebook.com/JDISherbrooke"
 facebook_members_link: "https://www.facebook.com/groups/jdisherbrooke"
-slack_link: "https://jdis.slack.com"
 github_link: "https://github.com/JDIS"
+slack_link: "https://jdis.slack.com"
+youtube_link: "https://www.youtube.com/channel/UCtvgOm5GYpuuEL6pXoEoylg"
 
 defaults:
   - scope:

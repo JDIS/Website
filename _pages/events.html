@@ -1,0 +1,18 @@
+---
+title: Événements
+permalink: /evements
+layout: page
+---
+
+<h3 class="section-title">Events</h3>
+<dl class="events">
+    {% for event in site.data.events %}
+        <dt>
+            <p class="title">{{ event.title }}</p>
+            <p class="date">{{ event.date }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ event.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>

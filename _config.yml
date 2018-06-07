@@ -1,52 +1,40 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# site config
+title: Jeux et défis informatiques de Sherbrooke (JDIS)
+email: info@jdis.ca
+description: >- # this means to ignore newlines until the next key
+  Jeux et défis informatiques de Sherbrooke (JDIS) est un groupe d'étudiants
+  en informatique de l'Université de Sherbrooke.
+url: "https://jdis.ca/"
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: JDIS
-email: info@jdis.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jdis.ca" # the base hostname & protocol for your site, e.g. http://example.com
+# social (to be moved into a _data file)
 facebook_page_link: "https://www.facebook.com/JDISherbrooke"
 facebook_members_link: "https://www.facebook.com/groups/jdisherbrooke"
 github_link: "https://github.com/JDIS"
 slack_link: "https://jdis.slack.com"
 youtube_link: "https://www.youtube.com/channel/UCtvgOm5GYpuuEL6pXoEoylg"
 
+# pages config
+permalink: /:title/
+include: ["_pages"] 
+
+# assets config
 defaults:
   - scope:
       path: "assets/img"
     values:
       image: true
 
-# Build settings
+# plugins
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# excludes
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

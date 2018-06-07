@@ -1,10 +1,35 @@
 {
 	"conseil_executif": [
 		{
+			"name": "Émile Fugulin",
+			"title": "Président",
+			"description": "Une Description :p",
+			"image_url": "haha"
+		},
+		{
 			"name": "Émilio Gonzalez",
 			"title": "Vice-président",
 			"description": "Une Description",
-			"image_url": "haha"
+			"image_url": "hahe"
+		},
+		{
+			"name": "Anthony Ileret",
+			"title": "VP communication",
+			"description": "Une Description 3",
+			"image_url": "haa"
+		},
+		{
+			"name": "Uros Petricevic",
+			"title": "VP commandites",
+			"description": "Une Description 4",
+			"image_url": "hha"
+		},
+		{
+			"name": "Malcolm St-John",
+			"title": "VP conférences",
+			"description": "Une Description 5",
+			"image_url": "ha"
 		}
+		
 	]
 }

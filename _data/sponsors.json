@@ -1,0 +1,29 @@
+{
+	"sponsors": [
+		{
+			"name": "Sherweb",
+			"url": "bépo",
+			"is_active": true
+		},
+		{
+			"name": "Coveo",
+			"url": "bépoo",
+			"is_active": true
+		},
+		{
+			"name": "Desjardins",
+			"url": "bépooo",
+			"is_active": true
+		},
+		{
+			"name": "Sherbrooke Innopole",
+			"url": "béppo",
+			"is_active": true
+		},
+		{
+			"name": "Université de Sherbrooke",
+			"url": "bbbbépo",
+			"is_active": true
+		}
+	]
+}

@@ -2,18 +2,18 @@
 // @description All header styles
 
 header {
-  border-bottom: 1px solid #edefee;
   padding: ($spacer * 2) 0;
   margin-bottom: ($spacer * 2);
   
   @media(min-width: 640px) {
-    padding: ($spacer * 10) 0 ($spacer * 3);
+    padding: ($spacer * 4) 0 ($spacer * 3);
     margin-bottom: ($spacer * 3);
   }
 }
 
 .intro {
   margin-bottom: ($spacer * 2);
+  max-width: 45em;
   
   &__pre, &__post {
     text-transform: uppercase;
@@ -28,13 +28,12 @@ header {
     
     @media(min-width: 640px) {
       font-size: 2.2rem;
-      max-width: 60%;
     }
   }
 }
 
 .social {
   a {
-    margin-right: $spacer;
+    margin-right: $spacer / 2 !important;
   }
 }

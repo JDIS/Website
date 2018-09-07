@@ -4,16 +4,70 @@ layout: page
 ---
 
 <header>
-  <div class="container">
-    <div class="intro">
-      <p class="intro__pre">Bonjour</p>
-      <p class="intro__main">Jeux et défis informatiques de Sherbrooke</p>
-      <p class="intro__post">Université de Sherbrooke, Canada</p>
-    </div>
-    
-    <div class="social">
-      <a href="http://github.com/{{ site.data.social.github_username }}" target="_blank">GitHub</a>
-    </div>
-    
+  <div class="intro">
+    <p class="intro__main">Nous sommes plus de 200 étudiantes et étudiants en informatique à l'UdeS.</p>
+    <p>
+      Avec une communauté toujours grandissante, plusieurs participations aux
+      événements informatiques de la province ainsi qu'une foule d'activités organisées chaque année, 
+      <strong>Jeux et défis informatiques de Sherbrooke</strong> est le groupe d'informatique 
+      par excellence de l'Université de Sherbrooke.
+    </p>
   </div>
 </header>
+
+<h3 id="partenaires" class="section-title">Nos partenaires de succès</h3>
+<div style="display: flex; align-items:center; justify-content: space-between;">
+  {% for sponsor in site.data.sponsors %}
+    <div style="flex: 1; margin-bottom:1em; padding-right: 3vw">
+      <img src="{{ sponsor.image_url }}"/>
+    </div>
+  {% endfor %}
+</div>
+
+<h3 id="jdis" class="section-title">JDIS?</h3>
+<p>
+  Jeux et défis informatiques de Sherbrooke, aussi connue sous le nom de JDIS (et prononcé «jedi» comme dans Star Wars!), est un groupe formé par les étudiants, pour les étudiants en informatique de l'Université de Sherbrooke.
+</p>
+
+<h3 id="evenements" class="section-title">Événements à venir</h3>
+<div style="display: flex">
+  {% for event in site.data.events %}
+  <div style="border:2px solid black; margin-right:1em; margin-bottom:1em; padding: 1em; padding-right: 2em; display: inline-block">
+    <p>
+      <b>{{ event.name }}</b><br/>
+      <span class="faded">{{ event.date }}</span>
+    </p>
+    <p>{{ event.description }}</p>
+    <p><a target="_blank" href="{{event.url}}">Plus d'informations →</a></p>
+  </div>
+  {% endfor %}
+</div>
+
+<h3 id="reussites" class="section-title">Nos réussites</h3>
+<div class="events">
+  {% for achievement in site.data.achievements %}
+    <div style="border:2px solid black; margin-right:1em; margin-bottom:1em; padding: 1em; padding-right: 2em; display: inline-block">
+      <div>
+        <b>{{ achievement.event }}</b><br/>
+        {{ achievement.achievement }}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<h3 id="equipe" class="section-title">L'équipe</h3>
+{% for member in site.data.members %}
+<div style="border:2px solid black; margin-right:1em; margin-bottom:1em; padding: 1em; padding-right: 2em; display: inline-block">
+  <div>
+    <b>{{ member.name }}</b><br/>
+    {{ member.title }}
+  </div>
+</div>
+{% endfor %}
+
+<h3 id="contact" class="section-title">Pour nous rejoindre</h3>
+<div class="social">
+  {% for medium in site.data.contact.social %}
+    <a href="{{ medium.url }}" target="_blank">{{ medium.label }}</a>
+  {% endfor %}
+</div>

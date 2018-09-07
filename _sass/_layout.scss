@@ -5,26 +5,48 @@
 $spacer: 20px;
 
 .container {
-  max-width: 860px;
+  max-width: 90vw;
   margin: 0 auto;
   padding: 0 $spacer;
 }
 
 .section-title {
+  padding-top:1em;
+  border-top: 1px solid #eeeeee;
   text-transform: uppercase;
   letter-spacing: 4px;
-  margin-bottom: ($spacer * 2);
-  text-align: center;
+  margin: ($spacer * 2) 0;
   position: relative;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
   
-  &:after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    margin-left: -25px;
-    width: 50px;
-    height: 1px;
-    background: #222;
+  .nav__nav-logo {
+    vertical-align: middle;
+    width: 60px;
+    padding: 2em 0;
+    margin-right: 2em;
+
+    img {
+      width: 100%;
+    }
   }
+
+  .nav__nav-branding {
+    font-size: 24px;
+  }
+  
+  .nav__nav-links {
+    vertical-align: middle;
+    .nav__nav-links-item {
+      margin-right: $spacer;
+      display: inline;
+    }
+  }
+}
+
+.photo {
+  max-height: 80vh;
 }

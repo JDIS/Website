@@ -1,46 +1,44 @@
-{
-  "sponsors": [
-    {
-      "name": "Sherweb",
-      "plan": "i5",
-      "url": "https://www.sherweb.com/fr/",
-      "image_url": "sherweb.png",
-      "is_active": true
-    },
-    {
-      "name": "Coveo",
-      "plan": "i3",
-      "url": "https://www.coveo.com/fr",
-      "image_url": "coveo.png",
-      "is_active": true
-    },
-    {
-      "name": "Desjardins",
-      "plan": "i3",
-      "url": "https://www.desjardins.ca/",
-      "image_url": "desjardins.png",
-      "is_active": true
-    },
-    {
-      "name": "Sherbrooke Innopole",
-      "plan": "i3",
-      "url": "https://sherbrooke-innopole.com/",
-      "image_url": "sherbrooke-innopole.png",
-      "is_active": true
-    },
-    {
-      "name": "Université de Sherbrooke",
-      "plan": "Xenon",
-      "url": "https://www.usherbrooke.ca/",
-      "image_url": "usherbrooke.png",
-      "is_active": true
-    },
-    {
-      "name": "Ageg",
-      "plan": "i3",
-      "url": "https://ageg.ca/",
-      "image_url": "ageg.png",
-      "is_active": true
-    }
-  ]
-}
+[
+  {
+    "name": "Sherweb",
+    "plan": "i5",
+    "url": "https://www.sherweb.com/fr/",
+    "image_url": "/assets/img/sponsors/sherweb.svg",
+    "is_active": true
+  },
+  {
+    "name": "Coveo",
+    "plan": "i3",
+    "url": "https://www.coveo.com/fr",
+    "image_url": "/assets/img/sponsors/coveo.svg",
+    "is_active": true
+  },
+  {
+    "name": "Desjardins",
+    "plan": "i3",
+    "url": "https://www.desjardins.ca/",
+    "image_url": "/assets/img/sponsors/desjardins.svg",
+    "is_active": true
+  },
+  {
+    "name": "Sherbrooke Innopole",
+    "plan": "i3",
+    "url": "https://sherbrooke-innopole.com/",
+    "image_url": "/assets/img/sponsors/sherbrooke-innopole.svg",
+    "is_active": true
+  },
+  {
+    "name": "Université de Sherbrooke",
+    "plan": "Xenon",
+    "url": "https://www.usherbrooke.ca/",
+    "image_url": "/assets/img/sponsors/usherbrooke.svg",
+    "is_active": true
+  },
+  {
+    "name": "AGEG",
+    "plan": "i3",
+    "url": "https://ageg.ca/",
+    "image_url": "/assets/img/sponsors/ageg.png",
+    "is_active": true
+  }
+]

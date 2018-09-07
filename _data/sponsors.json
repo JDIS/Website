@@ -1,16 +1,16 @@
 [
   {
-    "name": "Sherweb",
-    "plan": "i5",
-    "url": "https://www.sherweb.com/fr/",
-    "image_url": "/assets/img/sponsors/sherweb.svg",
-    "is_active": true
-  },
-  {
     "name": "Coveo",
     "plan": "i3",
     "url": "https://www.coveo.com/fr",
     "image_url": "/assets/img/sponsors/coveo.svg",
+    "is_active": true
+  },
+  {
+    "name": "Sherweb",
+    "plan": "i5",
+    "url": "https://www.sherweb.com/fr/",
+    "image_url": "/assets/img/sponsors/sherweb.svg",
     "is_active": true
   },
   {
@@ -38,7 +38,7 @@
     "name": "AGEG",
     "plan": "i3",
     "url": "https://ageg.ca/",
-    "image_url": "/assets/img/sponsors/ageg.png",
+    "image_url": "/assets/img/sponsors/ageg.svg",
     "is_active": true
   }
 ]

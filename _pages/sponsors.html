@@ -1,0 +1,14 @@
+---
+title: Partenaires
+permalink: /partenaires
+layout: page
+---
+
+<ul>
+  {% for sponsor in site.data.sponsors %}
+    <div>
+      <img src="/assets/img/sponsors/{{ sponsor.image_url }}"/>
+      {{ sponsor.name }}
+    </div>
+  {% endfor %}
+</ul>

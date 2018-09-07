@@ -2,48 +2,66 @@
 permalink: /
 layout: page
 ---
+<div class="stripes">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
 
 <header>
   <div class="intro">
-    <p class="intro__main">Nous sommes plus de 200 étudiantes et étudiants en informatique à l'UdeS.</p>
-    <p>
+    <p class="intro__main">JDIS, c'est plus de 200 étudiantes et étudiants en informatique à l'UdeS.</p>
+    <p class="intro__text">
       Avec une communauté toujours grandissante, plusieurs participations aux
       événements informatiques de la province ainsi qu'une foule d'activités organisées chaque année, 
       <strong>Jeux et défis informatiques de Sherbrooke</strong> est le groupe d'informatique 
       par excellence de l'Université de Sherbrooke.
     </p>
+    <a class="intro__btn--main" href="#jdis"><div>En savoir plus</div></a>
   </div>
 </header>
 
-<h3 id="partenaires" class="section-title">Nos partenaires de succès</h3>
-<div style="display: flex; align-items:center; justify-content: space-between;">
-  {% for sponsor in site.data.sponsors %}
-    <div style="flex: 1; margin-bottom:1em; padding-right: 3vw">
-      <img src="{{ sponsor.image_url }}"/>
-    </div>
-  {% endfor %}
-</div>
-
-<h3 id="jdis" class="section-title">JDIS?</h3>
-<p>
-  Jeux et défis informatiques de Sherbrooke, aussi connue sous le nom de JDIS (et prononcé «jedi» comme dans Star Wars!), est un groupe formé par les étudiants, pour les étudiants en informatique de l'Université de Sherbrooke.
+<h3 id="jdis" style="border-top:0;" class="section-title">JDIS?</h3>
+<p class="narrow">
+  Jeux et défis informatiques de Sherbrooke, aussi connue sous le nom de JDIS (prononcé «jedi», comme dans <em>Star Wars</em>), est un groupe formé <em>par</em> les étudiants et <em>pour</em> les étudiants en informatique de l'Université de Sherbrooke.
 </p>
 
-<h3 id="evenements" class="section-title">Événements à venir</h3>
-<div style="display: flex">
-  {% for event in site.data.events %}
-  <div style="border:2px solid black; margin-right:1em; margin-bottom:1em; padding: 1em; padding-right: 2em; display: inline-block">
-    <p>
-      <b>{{ event.name }}</b><br/>
-      <span class="faded">{{ event.date }}</span>
-    </p>
-    <p>{{ event.description }}</p>
-    <p><a target="_blank" href="{{event.url}}">Plus d'informations →</a></p>
-  </div>
+<h3 id="partenaires" class="section-title">Nos partenaires de succès</h3>
+<ul class="grid grid-6">
+  {% for sponsor in site.data.sponsors %}
+    <li>
+      <img src="{{ sponsor.image_url }}"/>
+    </li>
   {% endfor %}
-</div>
+</ul>
+<p class="narrow">
+  C'est grâce à nos partenaires que nous arrivons à offrir des opportunités de choix aux étudiants, que ce soit pour nos délégations de compétitions ou lors d'organisation d'événements.
+</p>
+<p class="narrow">
+  Vous souhaitez nous appuyer? Jetez un coup d'oeil à notre plan de commandites, et entrez en contact avec nous par courriel au <a href="mailto:info@jdis.ca">info@jdis.ca</a>.
+</p>
+<a class="intro__btn--main" href="/assets/pdf/PlanDeCommandite-JDIS-2018.pdf"><div>Plan de commandite 2018</div></a>
 
-<h3 id="reussites" class="section-title">Nos réussites</h3>
+<h3 id="evenements" class="section-title">Événements à venir</h3>
+<ul class="grid grid-3">
+  {% for event in site.data.events %}
+    <li>
+      <p>
+        <b>{{ event.name }}</b><br/>
+        <span class="faded">{{ event.date }}</span>
+      </p>
+      <p>{{ event.description }}</p>
+      {% if event.url != "" %}
+        <p><a target="_blank" href="{{event.url}}">Plus d'informations →</a></p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+<h3 id="reussites" class="section-title">Nos dernières réussites</h3>
 <div class="events">
   {% for achievement in site.data.achievements %}
     <div style="border:2px solid black; margin-right:1em; margin-bottom:1em; padding: 1em; padding-right: 2em; display: inline-block">

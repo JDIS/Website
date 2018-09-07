@@ -72,3 +72,30 @@ body {
 p {
   margin-bottom: 1em;
 }
+
+a {
+  transition: all linear .15s;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  color: black;
+  $padding: 2px;
+  padding: $padding 0;
+  margin: $padding 0;
+
+  &.img-link {
+    text-decoration: none;
+    border: none;
+    &:hover, &:focus {
+      background: initial;
+    }
+  }
+
+  &:hover, &:focus {
+    border-color: $jdis-green;
+    background: lighten($jdis-green, 60)
+  }
+}
+
+.narrow {
+  max-width: 45em;
+}

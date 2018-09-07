@@ -1,0 +1,32 @@
+[
+  {
+    "name": "5@7 Formfintech",
+    "date": "24 septembre 2018",
+    "description": "Formfintech vous invite à un 5@7 le 24 septembre.",
+    "url": ""
+  },
+  {
+    "name": "Midi-conférence Coveo",
+    "date": "3 octobre 2018",
+    "description": "Assistez à la présentation d'un conférencier de Coveo sur l'heure du dîner à la Faculté des sciences. Apportez votre lunch!",
+    "url": ""
+  },
+  {
+    "name": "JDISConf 2018: Mégadonnées",
+    "url": "https://conference2018.jdis.ca",
+    "date": "18 octobre 2018",
+    "description": "JDISConf est une conférence organisée par des étudiants, pour les étudiants. L'édition 2018 portera sur le thème des mégadonnées."
+  },
+  {
+    "name": "Hackfest 2018",
+    "url": "https://hackfest.ca/en/",
+    "date": "2 et 3 novembre 2018",
+    "description": "Rendez-vous à Québec pour le fameux Hackfest, où vous pourrez assister à un multitude de talks et participer au CTF jusqu'à 2h dans la nuit."
+  },
+  {
+    "name": "Midi-conférence Bentley",
+    "url": "",
+    "date": "14 novembre 2018",
+    "description": "Bentley sera de passage à l'Université de Sherbrooke le 14 novembre prochain pour un midi-conférences. Soyez-y!"
+  }
+]

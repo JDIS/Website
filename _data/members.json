@@ -1,42 +1,40 @@
-{
-  "members": [
-    {
-      "name": "Émile Fugulin",
-      "title": "Président",
-      "email": "president@jdis.ca",
-      "description": "Une Description :p",
-      "image_url": "efugulin.jpeg",
-      "is_active": true
-    },
-    {
-      "name": "Émilio Gonzalez",
-      "title": "Vice-président",
-      "email": "vice.president@jdis.ca",
-      "description": "Une Description",
-      "image_url": "egonzalez.jpeg",
-      "is_active": true
-    },
-    {
-      "name": "Anthony Ileret",
-      "title": "VP communication",
-      "description": "Une Description 3",
-      "image_url": "placeholder.png",
-      "is_active": true
-    },
-    {
-      "name": "Uros Petricevic",
-      "title": "VP commandites",
-      "description": "Une Description 4",
-      "image_url": "placeholder.png",
-      "is_active": true
-    },
-    {
-      "name": "Malcolm St-John",
-      "title": "VP conférences",
-      "description": "Une Description 5",
-      "image_url": "placeholder.png",
-      "is_active": true
-    }
-    
-  ]
-}
+[
+  {
+    "name": "Félix Martel-Denis",
+    "title": "Président",
+    "email": "president@jdis.ca",
+    "image_url": "placeholder.jpeg",
+    "is_active": true
+  },
+  {
+    "name": "Émilio Gonzalez",
+    "title": "Vice-président",
+    "email": "vice.president@jdis.ca",
+    "image_url": "egonzalez.jpeg",
+    "is_active": true
+  },
+  {
+    "name": "Francis Hamel",
+    "title": "VP Conférences",
+    "image_url": "placeholder.png",
+    "is_active": true
+  },
+  {
+    "name": "Émile Fugulin",
+    "title": "VP Communications",
+    "image_url": "efugulin.jpeg",
+    "is_active": true
+  },
+  {
+    "name": "Uros Petricevic",
+    "title": "VP Commandites",
+    "image_url": "placeholder.jpeg",
+    "is_active": true
+  },
+  {
+    "name": "Alexandre Larochelle",
+    "title": "Trésorier",
+    "image_url": "placeholder.png",
+    "is_active": true
+  }
+]

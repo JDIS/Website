@@ -1,7 +1,29 @@
 {
   "contact": {
-    "City": "Sherbrooke, QC, Canada (J1K 2R1)",
-    "University": "2500 Boulevard de l'Université",
-    "Room": "Local D4-2009, Faculté des Sciences de l'UdeS"
-  }
+    "city": "Sherbrooke, QC, Canada (J1K 2R1)",
+    "university": "2500 Boulevard de l'Université",
+    "room": "Local D4-2009, Faculté des Sciences de l'UdeS"
+  },
+  "social": [
+    {
+      "label": "Slack",
+      "url": "https://jdis.slack.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/JDISherbrooke/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/JDIS/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCtvgOm5GYpuuEL6pXoEoylg"
+    },
+    {
+      "label": "Flickr",
+      "url": "https://www.flickr.com/photos/138571979@N05"
+    }
+  ]
 }

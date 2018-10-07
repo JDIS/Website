@@ -48,6 +48,18 @@ $spacer: 20px;
 
 .photo {
   max-height: 80vh;
+
+  .member-image-container {
+    width:100%;
+  }
+}
+
+.member-image {
+  width: auto;
+  display: block;
+  max-width: 10em;
+  height: 10em;
+  object-fit: cover;
 }
 
 ul.grid {

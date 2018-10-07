@@ -75,10 +75,13 @@ layout: page
 
 <h3 id="equipe" class="section-title">L'équipe</h3>
 {% for member in site.data.members %}
-<div style="border:2px solid black; margin-right:1em; margin-bottom:1em; padding: 1em; padding-right: 2em; display: inline-block">
-  <div>
+<div style="border:2px solid black; margin-right:1em; margin-bottom:1em; padding: 1em; display: inline-block">
+  <div class="member">
+    <div class="member-image-container">
+      <img class="member-image" src="/assets/img/members/{{ member.image_url }}" alt="Photo {{ member.name }}">
+    </div>
     <b>{{ member.name }}</b><br/>
-    {{ member.title }}
+    <span>{{ member.title }}</span>
   </div>
 </div>
 {% endfor %}

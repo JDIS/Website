@@ -3,7 +3,7 @@
     "name": "Félix Martel-Denis",
     "title": "Président",
     "email": "president@jdis.ca",
-    "image_url": "placeholder.jpeg",
+    "image_url": "felix.jpg",
     "is_active": true
   },
   {
@@ -16,7 +16,7 @@
   {
     "name": "Francis Hamel",
     "title": "VP Conférences",
-    "image_url": "placeholder.png",
+    "image_url": "francis.jpg",
     "is_active": true
   },
   {
@@ -28,13 +28,13 @@
   {
     "name": "Uros Petricevic",
     "title": "VP Commandites",
-    "image_url": "placeholder.jpeg",
+    "image_url": "uros.jpg",
     "is_active": true
   },
   {
     "name": "Alexandre Larochelle",
     "title": "Trésorier",
-    "image_url": "placeholder.png",
+    "image_url": "larochelle.jpg",
     "is_active": true
   }
 ]

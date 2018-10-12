@@ -16,8 +16,8 @@ layout: page
     <p class="intro__main">JDIS, c'est plus de 200 étudiantes et étudiants en informatique à l'UdeS.</p>
     <p class="intro__text">
       Avec une communauté toujours grandissante, plusieurs participations aux
-      événements informatiques de la province ainsi qu'une foule d'activités organisées chaque année,
-      <strong>Jeux et défis informatiques de Sherbrooke</strong> est le groupe d'informatique
+      événements informatiques de la province ainsi qu'une foule d'activités organisées chaque année, 
+      <strong>Jeux et défis informatiques de Sherbrooke</strong> est le groupe d'informatique 
       par excellence de l'Université de Sherbrooke.
     </p>
     <a class="intro__btn--main" href="#jdis"><div>En savoir plus</div></a>
@@ -74,15 +74,14 @@ layout: page
 </div>
 
 <h3 id="equipe" class="section-title">L'équipe</h3>
-<ul class="grid grid-team">
-  {% for member in site.data.members %}
-    <li class="member">
-      <img class="member-image" src="/assets/img/members/{{ member.image_url }}" alt="{{ member.name }}, {{ member.title }}">
-      <b>{{ member.name }}</b><br/>
-      <span>{{ member.title }}</span>
-    </li>
-  {% endfor %}
-  </ul>
+{% for member in site.data.members %}
+<div style="border:2px solid black; margin-right:1em; margin-bottom:1em; padding: 1em; padding-right: 2em; display: inline-block">
+  <div>
+    <b>{{ member.name }}</b><br/>
+    {{ member.title }}
+  </div>
+</div>
+{% endfor %}
 
 <h3 id="contact" class="section-title">Pour nous rejoindre</h3>
 <div class="social">

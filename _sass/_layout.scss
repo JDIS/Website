@@ -59,7 +59,7 @@ $spacer: 20px;
 }
 
 .small-text {
-  font-size: 80%;
+  font-size: 0.8em;
 }
 
 ul.grid {
@@ -84,6 +84,23 @@ ul.grid {
       background: linear-gradient(135deg, hsl(160, 0%, 99%), hsl(151, 50%, 94%));
       padding: 1em;
       border-radius: 5px;
+    }
+  }
+
+  &.grid-photos {
+    grid-gap: 2em;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    @media (max-width: 768px){
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .photo-title {
+      margin-bottom: 0.5em;
+      font-weight: bold;
+    }
+    img {
+      font-weight: bold;
+      max-height: 90vh;
     }
   }
 

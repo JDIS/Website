@@ -87,6 +87,23 @@ ul.grid {
     }
   }
 
+  &.grid-photos {
+    grid-gap: 2em;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    @media (max-width: 768px){
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .photo-title {
+      margin-bottom: 0.5em;
+      font-weight: bold;
+    }
+    img {
+      font-weight: bold;
+      max-height: 90vh;
+    }
+  }
+
   &.grid-6 {
     grid-gap: 0 2em;
     align-items: center;

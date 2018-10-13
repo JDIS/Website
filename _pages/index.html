@@ -103,7 +103,8 @@ layout: page
     <li class="member">
       <img class="member-image" src="/assets/img/members/{{ member.image_url }}" alt="{{ member.name }}, {{ member.title }}">
       <b>{{ member.name }}</b><br/>
-      <span>{{ member.title }}</span>
+      <span>{{ member.title }}</span><br/>
+      <span class="small-text"><a href="mailto:{{ member.email }}">{{ member.email }}</a></span>
     </li>
   {% endfor %}
   </ul>

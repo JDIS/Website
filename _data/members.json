@@ -17,24 +17,28 @@
     "name": "Francis Hamel",
     "title": "VP Conférences",
     "image_url": "francis.jpg",
+    "email": "vp.conferences@jdis.ca",
     "is_active": true
   },
   {
     "name": "Émile Fugulin",
     "title": "VP Communications",
     "image_url": "efugulin.jpeg",
+    "email": "vp.communication@jdis.ca",
     "is_active": true
   },
   {
     "name": "Uros Petricevic",
     "title": "VP Commandites",
     "image_url": "uros.jpg",
+    "email": "vp.commandites@jdis.ca",
     "is_active": true
   },
   {
     "name": "Alexandre Larochelle",
     "title": "Trésorier",
     "image_url": "larochelle.jpg",
+    "email": "tresorier@jdis.ca",
     "is_active": true
   }
 ]

@@ -54,8 +54,21 @@ layout: page
 </ul>
 
 <h3 id="partenaires" class="section-title">Nos partenaires de succès</h3>
-<ul class="grid grid-6">
-  {% for sponsor in site.data.sponsors %}
+<ul class="grid grid-2">
+  {% for sponsor in site.data.sponsors.big %}
+        {% if sponsor.width == "big" %}
+          <li>
+            <img src="{{ sponsor.image_url }}"/>
+          </li>
+        {% else %}
+          <li style="width:60%; margin: auto;">
+            <img src="{{ sponsor.image_url }}"/>
+          </li>
+        {% endif %}
+  {% endfor %}
+</ul>
+<ul class="grid grid-4">
+  {% for sponsor in site.data.sponsors.small %}
     <li>
       <img src="{{ sponsor.image_url }}"/>
     </li>

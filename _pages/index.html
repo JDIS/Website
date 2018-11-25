@@ -72,7 +72,7 @@ layout: page
 <h3 id="evenements" class="section-title">Événements à venir</h3>
 <ul class="grid grid-3">
   {% for event in site.data.events %}
-    <li>
+    <li class="event" data-timestamp="{{ event.date_unix }}">
       <p>
         <b>{{ event.name }}</b><br/>
         <span class="faded">{{ event.date }}</span>
@@ -115,3 +115,4 @@ layout: page
     <a href="{{ medium.url }}" target="_blank">{{ medium.label }}</a>
   {% endfor %}
 </div>
+<script src="/assets/js/events.js"></script>

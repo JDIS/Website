@@ -13,12 +13,11 @@ layout: page
 
 <header>
   <div class="intro">
-    <p class="intro__main">JDIS, c'est plus de 200 étudiantes et étudiants en informatique à l'UdeS.</p>
+    <p class="intro__main">JDIS, c'est plus de 200 étudiant-e-s en informatique à l'UdeS.</p>
     <p class="intro__text">
       Avec une communauté toujours grandissante, plusieurs participations aux
       événements informatiques de la province ainsi qu'une foule d'activités organisées chaque année, 
-      <strong>Jeux et défis informatiques de Sherbrooke</strong> est le groupe d'informatique 
-      par excellence de l'Université de Sherbrooke.
+      <strong>Jeux et défis informatiques de Sherbrooke</strong> est l'organisation étudiante d'informatique par excellence de l'Université de Sherbrooke.
     </p>
     <a class="intro__btn--main" href="#jdis"><div>En savoir plus</div></a>
   </div>
@@ -26,8 +25,33 @@ layout: page
 
 <h3 id="jdis" style="border-top:0;" class="section-title">JDIS?</h3>
 <p class="narrow">
-  Jeux et défis informatiques de Sherbrooke, aussi connue sous le nom de JDIS (prononcé «jedi», comme dans <em>Star Wars</em>), est un groupe formé <em>par</em> les étudiants et <em>pour</em> les étudiants en informatique de l'Université de Sherbrooke.
+  Jeux et défis informatiques de Sherbrooke, aussi connue sous le nom de JDIS (prononcé «jedi», comme dans <em>Star Wars</em>), est une organisation étudiante formée <em>par</em> les étudiant-e-s et <em>pour</em> les étudiant-e-s en informatique de l'Université de Sherbrooke.
 </p>
+
+<h3 style="border-top:0;" class="section-title">Concrètement, JDIS c'est...</h3>
+<ul class="grid grid-photos">
+  <li>
+    <div class="photo-title">Des midis-conférences à l'UdeS</div>
+    <div>
+      <img src="/assets/img/photos/p_2.jpg" alt="Midi-conférence CI/CD présenté par Coveo">
+    </div>
+    <p class="small-text"><span style="font-weight: bold; font-style: italic">La transition vers le CI/CD</span>, par Coveo<br>UdeS, octobre 2018</p>
+  </li>
+  <li>
+    <div class="photo-title">Des délégations aux événements externes</div>
+    <div>
+      <img src="/assets/img/photos/p_4.jpg" alt="NorthSec CTF 2018">
+    </div>
+    <p class="small-text"><span style="font-weight: bold">NorthSec CTF</span> &mdash; Compétition de sécurité informatique<br>Montréal, mai 2018</p>
+  </li>
+  <li>
+    <div class="photo-title">Des conférences et des compétitions</div>
+    <div>
+      <img src="/assets/img/photos/p_5.jpg" alt="JDIS Games 2018">
+    </div>
+    <p class="small-text"><span style="font-weight: bold">JDIS Games</span> &mdash; Compétition d'intelligence artificielle<br>UdeS, juillet 2018</p>
+  </li>
+</ul>
 
 <h3 id="partenaires" class="section-title">Nos partenaires de succès</h3>
 <ul class="grid grid-2">
@@ -61,7 +85,7 @@ layout: page
 <h3 id="evenements" class="section-title">Événements à venir</h3>
 <ul class="grid grid-3">
   {% for event in site.data.events %}
-    <li>
+    <li class="event" data-timestamp="{{ event.date_unix }}">
       <p>
         <b>{{ event.name }}</b><br/>
         <span class="faded">{{ event.date }}</span>
@@ -87,14 +111,16 @@ layout: page
 </div>
 
 <h3 id="equipe" class="section-title">L'équipe</h3>
-{% for member in site.data.members %}
-<div style="border:2px solid black; margin-right:1em; margin-bottom:1em; padding: 1em; padding-right: 2em; display: inline-block">
-  <div>
-    <b>{{ member.name }}</b><br/>
-    {{ member.title }}
-  </div>
-</div>
-{% endfor %}
+<ul class="grid grid-team">
+  {% for member in site.data.members %}
+    <li class="member">
+      <img class="member-image" src="/assets/img/members/{{ member.image_url }}" alt="{{ member.name }}, {{ member.title }}">
+      <b>{{ member.name }}</b><br/>
+      <span>{{ member.title }}</span><br/>
+      <span class="small-text"><a href="mailto:{{ member.email }}">{{ member.email }}</a></span>
+    </li>
+  {% endfor %}
+  </ul>
 
 <h3 id="contact" class="section-title">Pour nous rejoindre</h3>
 <div class="social">
@@ -102,3 +128,4 @@ layout: page
     <a href="{{ medium.url }}" target="_blank">{{ medium.label }}</a>
   {% endfor %}
 </div>
+<script src="/assets/js/events.js"></script>

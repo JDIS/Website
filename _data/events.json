@@ -1,32 +1,58 @@
 [
   {
-    "name": "5@7 Formfintech",
-    "date": "24 septembre 2018",
-    "description": "Formfintech vous invite à un 5@7 le 24 septembre.",
-    "url": ""
+    "name": "Midi-conférence: Monter un Web-service «from scratch» par Coveo",
+    "url": "",
+    "date": "16 janvier 2019",
+    "date_unix": 1547604879000,
+    "description": "Alex Emery (gestionnaire de produit chez Coveo) viendra nous démontrer comment monter un web-service from scratch. Technologies abordées : .Net Core, Docker, Kubernetes, Azure Cloud. Pizza et breuverages offerts!"
   },
   {
-    "name": "Midi-conférence Coveo",
-    "date": "3 octobre 2018",
-    "description": "Assistez à la présentation d'un conférencier de Coveo sur l'heure du dîner à la Faculté des sciences. Apportez votre lunch!",
-    "url": ""
+    "name": "Sélection CS Games",
+    "url": "https://www.facebook.com/events/508726326273037/",
+    "date": "19 janvier 2019",
+    "date_unix": 1547864079000,
+    "description": "JDIS doit choisir 20 participants pour nous représenter aux CS Games. Plusieurs défis variés seront à résoudre!"
+  },
+  {
+    "name": "Midi-conférence #2",
+    "url": "",
+    "date": "13 février 2019",
+    "date_unix": 1550024079000,
+    "description": "Plus d'information à venir."
+  },
+  {
+    "name": "CS Games 2019",
+    "url": "https://2019.csgames.org/",
+    "date": "22-24 mars 2019",
+    "date_unix": 1553393679000,
+    "description": "La plus grosse compétition inter-universitaire d'informatique au Canada! Cette année, l'événement se tiendra à la Polytechnique de Montréal."
+  },
+  {
+    "name": "Midi-conférence #3",
+    "url": "",
+    "date": "3 avril 2019",
+    "date_unix": 1554254079000,
+    "description": "Plus d'information à venir."
   },
   {
     "name": "JDISConf 2018: Mégadonnées",
     "url": "https://conference2018.jdis.ca",
-    "date": "18 octobre 2018",
+    "date": "27 octobre 2018",
+    "date_unix": 1540602879000,
     "description": "JDISConf est une conférence organisée par des étudiants, pour les étudiants. L'édition 2018 portera sur le thème des mégadonnées."
   },
   {
     "name": "Hackfest 2018",
     "url": "https://hackfest.ca/en/",
     "date": "2 et 3 novembre 2018",
+    "date_unix": 1541211279000,
     "description": "Rendez-vous à Québec pour le fameux Hackfest, où vous pourrez assister à un multitude de talks et participer au CTF jusqu'à 2h dans la nuit."
   },
   {
     "name": "Midi-conférence Bentley",
     "url": "",
     "date": "14 novembre 2018",
+    "date_unix": 1542161679000,
     "description": "Bentley sera de passage à l'Université de Sherbrooke le 14 novembre prochain pour un midi-conférences. Soyez-y!"
   }
 ]

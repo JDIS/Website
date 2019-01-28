@@ -1,43 +1,64 @@
 [
   {
-    "name": "Félix Martel-Denis",
+    "name": "Émilio Gonzalez",
     "title": "Président",
     "email": "president@jdis.ca",
-    "image_url": "felix.jpg",
-    "is_active": true
-  },
-  {
-    "name": "Émilio Gonzalez",
-    "title": "Vice-président",
-    "email": "vice.president@jdis.ca",
     "image_url": "egonzalez.jpeg",
     "is_active": true
   },
   {
-    "name": "Francis Hamel",
+    "name": "Malcolm St. John",
+    "title": "Vice-président",
+    "email": "vice.president@jdis.ca",
+    "image_url": "malcolm.jpg",
+    "is_active": true
+  },
+  {
+    "name": "Maxime Carbonneau",
+    "title": "VP Compétitions",
+    "image_url": "mcarbonneau.jpg",
+    "email": "vp.competitions@jdis.ca",
+    "is_active": true
+  },
+  {
+    "name": "Étienne Lévesque",
+    "title": "VP Communications",
+    "image_url": "etienne.jpg",
+    "email": "vp.communications@jdis.ca",
+    "is_active": true
+  },
+  {
+    "name": "Ismael Balafrej",
+    "title": "VP Formations",
+    "image_url": "ismael.jpg",
+    "email": "vp.formations@jdis.ca",
+    "is_active": true
+  },
+  {
+    "name": "Mathieu Carreau",
+    "title": "Formations",
+    "image_url": "mathieu.jpg",
+    "email": "vp.formations@jdis.ca",
+    "is_active": true
+  },
+  {
+    "name": "Jonathan Lafrenière",
     "title": "VP Conférences",
-    "image_url": "francis.jpg",
+    "image_url": "jonathan.png",
     "email": "vp.conferences@jdis.ca",
     "is_active": true
   },
   {
-    "name": "Émile Fugulin",
-    "title": "VP Communications",
-    "image_url": "efugulin.jpeg",
-    "email": "vp.communication@jdis.ca",
-    "is_active": true
-  },
-  {
-    "name": "Uros Petricevic",
+    "name": "Marc-André Gill",
     "title": "VP Commandites",
-    "image_url": "uros.jpg",
+    "image_url": "gill.jpg",
     "email": "vp.commandites@jdis.ca",
     "is_active": true
   },
   {
-    "name": "Alexandre Larochelle",
+    "name": "Émile Fugulin",
     "title": "Trésorier",
-    "image_url": "larochelle.jpg",
+    "image_url": "efugulin.jpeg",
     "email": "tresorier@jdis.ca",
     "is_active": true
   }

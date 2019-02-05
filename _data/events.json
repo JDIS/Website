@@ -14,21 +14,21 @@
     "description": "JDIS doit choisir 20 participants pour nous représenter aux CS Games. Plusieurs défis variés seront à résoudre!"
   },
   {
-    "name": "Midi-conférence #2",
-    "url": "",
+    "name": "Midi-conférence JDIS: Le design en programmation fonctionnelle",
+    "url": "https://www.facebook.com/events/596795320761322/",
     "date": "13 février 2019",
     "date_unix": 1550024079000,
-    "description": "Plus d'information à venir."
+    "description": "Vous êtes un habitué des langages de programmation orientée objet? Vous avez une petite idée de ce qu'est la programmation fonctionnelle, mais ce n'est pas encore clair comment vous pourriez construire un programme complexe en fonctionnel? Cette présentation fera une petite étude de cas sur les différences entre la programmation OO et fonctionnelle à l'aide de C# et de OCaml. On parlera de design et d'architecture, en particulier sur les façons de construire des types riches à l'aide de l'héritage, la composition et les types algébriques de données. Aucune connaissance préalable obligatoire, mais la présentation est adressée à un public technique ayant de l'expérience en programmation orientée objet."
   },
   {
     "name": "CS Games 2019",
     "url": "https://2019.csgames.org/",
     "date": "22-24 mars 2019",
     "date_unix": 1553393679000,
-    "description": "La plus grosse compétition inter-universitaire d'informatique au Canada! Cette année, l'événement se tiendra à la Polytechnique de Montréal."
+    "description": "La plus grosse compétition inter-universitaire d'informatique au Canada! Cette année, l'événement se tiendra à la Polytechnique de Montréal. 20 étudiant-e-s représenteront l'UdeS."
   },
   {
-    "name": "Midi-conférence #3",
+    "name": "Midi-conférence #3: Sherweb",
     "url": "",
     "date": "3 avril 2019",
     "date_unix": 1554254079000,

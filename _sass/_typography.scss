@@ -73,7 +73,7 @@ p {
   margin-bottom: 1em;
 }
 
-a {
+span a, p a {
   transition: all linear .15s;
   text-decoration: none;
   border-bottom: 1px solid black;

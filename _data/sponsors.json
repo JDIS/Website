@@ -34,9 +34,16 @@
     },
     {
       "name": "Université de Sherbrooke",
-      "plan": "Xenon",
+      "plan": "Xeon",
       "url": "https://www.usherbrooke.ca/",
       "image_url": "/assets/img/sponsors/usherbrooke.svg",
+      "is_active": true
+    },
+    {
+      "name": "Nexapp",
+      "plan": "i3",
+      "url": "https://www.nexapp.ca/",
+      "image_url": "/assets/img/sponsors/nexapp.png",
       "is_active": true
     },
     {

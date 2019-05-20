@@ -1,5 +1,19 @@
 [
   {
+    "name": "iHack Sherbrooke 2019",
+    "url": "",
+    "date": "15 juin 2019",
+    "date_unix": 1560625200000,
+    "description": "Compétition de cybersécurité de type Capture The Flag en équipe de 4 à Espace Inc!"
+  },
+  {
+    "name": "JDIS Games 2019",
+    "url": "",
+    "date": "13 juillet 2019",
+    "date_unix": 1563044400000,
+    "description": "Compétition d'intelligence artificielle en équipe de 4 où les équipes (venant de plusieurs écoles) doivent coder un agent qui joue à un jeu contre les agents des autres équipes."
+  },
+  {
     "name": "Midi-conférence: Monter un Web-service «from scratch» par Coveo",
     "url": "",
     "date": "16 janvier 2019",

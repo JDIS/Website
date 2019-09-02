@@ -1,5 +1,40 @@
 [
   {
+    "name": "Midi-conférence 1",
+    "url": "",
+    "date": "18 septembre 2019",
+    "date_unix": 1568764800000,
+    "description": "Détails à venir"
+  },
+  {
+    "name": "UnitedCTF",
+    "url": "https://unitedctf.ca",
+    "date": "20 au 29 septembre 2019",
+    "date_unix": 1569801600000,
+    "description": "En collaboration avec CFIUL et DCIETS, JDIS organise une compétition informatique en ligne! La compétition a été pensée à la fois pour les débutants et pour les gens plus avancés. Il y a un événement hors ligne pour le lancement de la compétition."
+  },
+  {
+    "name": "Cabane.io Sherbrooke",
+    "url": "https://unitedctf.ca",
+    "date": "26 octobre 2019",
+    "date_unix": 1572048000000,
+    "description": "Détails à venir"
+  },
+  {
+    "name": "Midi-conférence 2: Coveo",
+    "url": "",
+    "date": "6 novembre 2019",
+    "date_unix": 1572998400000,
+    "description": "Détails à venir"
+  },
+  {
+    "name": "Midi-conférence 3",
+    "url": "",
+    "date": "27 novembre 2019",
+    "date_unix": 1574812800000,
+    "description": "Détails à venir"
+  },
+  {
     "name": "iHack Sherbrooke 2019",
     "url": "",
     "date": "15 juin 2019",

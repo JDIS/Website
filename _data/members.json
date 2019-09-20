@@ -7,10 +7,10 @@
     "is_active": true
   },
   {
-    "name": "Malcolm St. John",
+    "name": "Guillaume Gervais",
     "title": "Vice-président",
     "email": "vice.president@jdis.ca",
-    "image_url": "malcolm.jpg",
+    "image_url": "guillaume.jpg",
     "is_active": true
   },
   {
@@ -21,30 +21,30 @@
     "is_active": true
   },
   {
-    "name": "Étienne Lévesque",
+    "name": "Ismael Balafrej",
+    "title": "VP Compétitions",
+    "image_url": "ismael.jpg",
+    "email": "vp.competitions@jdis.ca",
+    "is_active": true
+  },
+  {
+    "name": "Peter Chatzi",
     "title": "VP Communication",
-    "image_url": "etienne.jpg",
+    "image_url": "peter.jpg",
     "email": "vp.communication@jdis.ca",
     "is_active": true
   },
   {
-    "name": "Ismael Balafrej",
-    "title": "VP Formations",
-    "image_url": "ismael.jpg",
-    "email": "vp.formation@jdis.ca",
-    "is_active": true
-  },
-  {
-    "name": "Mathieu Carreau",
+    "name": "Ashiahanim Ayassor",
     "title": "Formations",
-    "image_url": "mathieu.jpg",
+    "image_url": "ash.jpg",
     "email": "vp.formation@jdis.ca",
     "is_active": true
   },
   {
-    "name": "Jonathan Lafrenière",
+    "name": "Étienne Lévesque",
     "title": "VP Conférences",
-    "image_url": "jonathan.png",
+    "image_url": "etienne.jpg",
     "email": "vp.conferences@jdis.ca",
     "is_active": true
   },
@@ -53,13 +53,20 @@
     "title": "VP Commandites",
     "image_url": "gill.jpg",
     "email": "vp.commandites@jdis.ca",
+    "is_active": false
+  },
+  {
+    "name": "Malcolm St. John",
+    "title": "Trésorier",
+    "image_url": "malcolm.jpg",
+    "email": "tresorier@jdis.ca",
     "is_active": true
   },
   {
     "name": "Émile Fugulin",
-    "title": "Trésorier",
+    "title": "Transfert de connaissances",
     "image_url": "efugulin.jpeg",
-    "email": "tresorier@jdis.ca",
+    "email": "info@jdis.ca",
     "is_active": true
   }
 ]

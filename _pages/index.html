@@ -86,14 +86,16 @@ layout: page
 <ul class="grid grid-3">
   {% for event in site.data.events %}
     <li class="event" data-timestamp="{{ event.date_unix }}">
-      <p>
-        <b>{{ event.name }}</b><br/>
-        <span class="faded">{{ event.date }}</span>
-      </p>
-      <p>{{ event.description }}</p>
-      {% if event.url != "" %}
-        <p><a target="_blank" href="{{event.url}}">Plus d'informations →</a></p>
-      {% endif %}
+      <div class="content">
+        <p>
+          <b>{{ event.name }}</b><br/>
+          <span class="faded">{{ event.date }}</span>
+        </p>
+        <p>{{ event.description }}</p>
+        {% if event.url != "" %}
+          <p><a target="_blank" href="{{event.url}}">Plus d'informations →</a></p>
+        {% endif %}
+      </div>
     </li>
   {% endfor %}
 </ul>

@@ -80,10 +80,18 @@ ul.grid {
     @media (max-width: 560px){
       grid-template-columns: repeat(1, 1fr);
     }
-    li {
+    li .content {
       background: linear-gradient(135deg, hsl(160, 0%, 99%), hsl(151, 50%, 94%));
       padding: 1em;
       border-radius: 5px;
+
+      @media (min-width: 768px) {
+        height: 100%;
+      }
+
+      @media (max-width: 767px){
+        margin-bottom: 10px;
+      } 
     }
   }
 
@@ -155,6 +163,10 @@ ul.grid {
 
 body{
   overflow-x:hidden;
+}
+
+.event{
+  height: 100%;
 }
 
 .stripes{

@@ -7,18 +7,18 @@
     "description": "Détails à venir"
   },
   {
-    "name": "UnitedCTF",
-    "url": "https://unitedctf.ca",
-    "date": "20 au 29 septembre 2019",
-    "date_unix": 1569801600000,
-    "description": "En collaboration avec CFIUL et DCIETS, JDIS organise une compétition informatique en ligne! La compétition a été pensée à la fois pour les débutants et pour les gens plus avancés. Il y a un événement hors ligne pour le lancement de la compétition."
-  },
-  {
     "name": "Cabane.io Sherbrooke",
-    "url": "https://unitedctf.ca",
+    "url": "https://sherbrooke.cabane.io",
     "date": "26 octobre 2019",
     "date_unix": 1572048000000,
-    "description": "Détails à venir"
+    "description": "Cette première édition vise à promouvoir la communauté de développeurs à Sherbrooke qui est tout aussi vibrante que celle de Québec. Le prix inclut le dîner et peut-être quelques surprises..."
+  },
+  {
+    "name": "JDIS Academy #9: Introduction à Git",
+    "url": "",
+    "date": "28 octobre 2019",
+    "date_unix": 1572282000000,
+    "description": "Par Émile Fugulin"
   },
   {
     "name": "Midi-conférence 2: Coveo",
@@ -28,11 +28,32 @@
     "description": "Détails à venir"
   },
   {
+    "name": "JDIS Academy #10: Concepts avancés en Python",
+    "url": "",
+    "date": "11 novembre 2019",
+    "date_unix": 1573491600000,
+    "description": "Par Guillaume Jean"
+  },
+  {
     "name": "Midi-conférence 3",
     "url": "",
     "date": "27 novembre 2019",
     "date_unix": 1574812800000,
     "description": "Détails à venir"
+  },
+  {
+    "name": "JDIS Academy #11: Windows Forensics",
+    "url": "",
+    "date": "25 novembre 2019",
+    "date_unix": 1574701200000,
+    "description": "Par Émilio Gonzalez"
+  },
+  {
+    "name": "UnitedCTF",
+    "url": "https://unitedctf.ca",
+    "date": "20 au 29 septembre 2019",
+    "date_unix": 1569801600000,
+    "description": "En collaboration avec CFIUL et DCIETS, JDIS organise une compétition informatique en ligne! La compétition a été pensée à la fois pour les débutants et pour les gens plus avancés. Il y a un événement hors ligne pour le lancement de la compétition."
   },
   {
     "name": "iHack Sherbrooke 2019",

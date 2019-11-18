@@ -35,11 +35,11 @@
     "description": "Par Guillaume Jean"
   },
   {
-    "name": "Midi-conférence 3",
+    "name": "Midi-conférence 3: Communication entre objets intelligents",
     "url": "",
     "date": "27 novembre 2019",
     "date_unix": 1574812800000,
-    "description": "Détails à venir"
+    "description": " Les objets capables de communication envahissent tranquillement notre quotidien. Toutefois, leur façon actuelle de communiquer n’est pas toujours optimale. Dans cette présentation, je vais introduire une nouvelle forme de communication basée sur la distance entre les objets. Le protocole de communication ainsi défini sera ensuite illustré dans le contexte d’une intersection routière intelligente."
   },
   {
     "name": "JDIS Academy #11: Windows Forensics",
@@ -49,80 +49,10 @@
     "description": "Par Émilio Gonzalez"
   },
   {
-    "name": "UnitedCTF",
-    "url": "https://unitedctf.ca",
-    "date": "20 au 29 septembre 2019",
-    "date_unix": 1569801600000,
-    "description": "En collaboration avec CFIUL et DCIETS, JDIS organise une compétition informatique en ligne! La compétition a été pensée à la fois pour les débutants et pour les gens plus avancés. Il y a un événement hors ligne pour le lancement de la compétition."
-  },
-  {
-    "name": "iHack Sherbrooke 2019",
-    "url": "",
-    "date": "15 juin 2019",
-    "date_unix": 1560625200000,
-    "description": "Compétition de cybersécurité de type Capture The Flag en équipe de 4 à Espace Inc!"
-  },
-  {
-    "name": "JDIS Games 2019",
-    "url": "",
-    "date": "13 juillet 2019",
-    "date_unix": 1563044400000,
-    "description": "Compétition d'intelligence artificielle en équipe de 4 où les équipes (venant de plusieurs écoles) doivent coder un agent qui joue à un jeu contre les agents des autres équipes."
-  },
-  {
-    "name": "Midi-conférence: Monter un Web-service «from scratch» par Coveo",
-    "url": "",
-    "date": "16 janvier 2019",
-    "date_unix": 1547604879000,
-    "description": "Alex Emery (gestionnaire de produit chez Coveo) viendra nous démontrer comment monter un web-service from scratch. Technologies abordées : .Net Core, Docker, Kubernetes, Azure Cloud. Pizza et breuverages offerts!"
-  },
-  {
-    "name": "Sélection CS Games",
-    "url": "https://www.facebook.com/events/508726326273037/",
-    "date": "19 janvier 2019",
-    "date_unix": 1547864079000,
-    "description": "JDIS doit choisir 20 participants pour nous représenter aux CS Games. Plusieurs défis variés seront à résoudre!"
-  },
-  {
-    "name": "Midi-conférence JDIS: Le design en programmation fonctionnelle",
-    "url": "https://www.facebook.com/events/596795320761322/",
-    "date": "13 février 2019",
-    "date_unix": 1550024079000,
-    "description": "Vous êtes un habitué des langages de programmation orientée objet? Vous avez une petite idée de ce qu'est la programmation fonctionnelle, mais ce n'est pas encore clair comment vous pourriez construire un programme complexe en fonctionnel? Cette présentation fera une petite étude de cas sur les différences entre la programmation OO et fonctionnelle à l'aide de C# et de OCaml. On parlera de design et d'architecture, en particulier sur les façons de construire des types riches à l'aide de l'héritage, la composition et les types algébriques de données. Aucune connaissance préalable obligatoire, mais la présentation est adressée à un public technique ayant de l'expérience en programmation orientée objet."
-  },
-  {
-    "name": "CS Games 2019",
-    "url": "https://2019.csgames.org/",
-    "date": "22-24 mars 2019",
-    "date_unix": 1553393679000,
-    "description": "La plus grosse compétition inter-universitaire d'informatique au Canada! Cette année, l'événement se tiendra à la Polytechnique de Montréal. 20 étudiant-e-s représenteront l'UdeS."
-  },
-  {
-    "name": "Midi-conférence #3: Sherweb",
-    "url": "",
-    "date": "3 avril 2019",
-    "date_unix": 1554254079000,
-    "description": "Plus d'information à venir."
-  },
-  {
-    "name": "JDISConf 2018: Mégadonnées",
-    "url": "https://conference2018.jdis.ca",
-    "date": "27 octobre 2018",
-    "date_unix": 1540602879000,
-    "description": "JDISConf est une conférence organisée par des étudiants, pour les étudiants. L'édition 2018 portera sur le thème des mégadonnées."
-  },
-  {
-    "name": "Hackfest 2018",
-    "url": "https://hackfest.ca/en/",
-    "date": "2 et 3 novembre 2018",
-    "date_unix": 1541211279000,
-    "description": "Rendez-vous à Québec pour le fameux Hackfest, où vous pourrez assister à un multitude de talks et participer au CTF jusqu'à 2h dans la nuit."
-  },
-  {
-    "name": "Midi-conférence Bentley",
-    "url": "",
-    "date": "14 novembre 2018",
-    "date_unix": 1542161679000,
-    "description": "Bentley sera de passage à l'Université de Sherbrooke le 14 novembre prochain pour un midi-conférences. Soyez-y!"
+    "name": "Qualifications CS Games",
+    "url": "https://www.facebook.com/events/2668375503218712",
+    "date": "25 janvier 2020",
+    "date_unix": 1579453200000,
+    "description": "Les Computer Science Games, c'est une compétition inter-universitaire et multi-disciplinaire pour les étudiant-e-s en informatique (peu importe la faculté). Du 13 au 16 mars, une trentaine d'équipes d'une vingtaine d'universités en Amérique du Nord se rencontreront, socialiseront et, bien sûr, compétitionneront dans diverses branches de l'informatique telles que le développement Web, les bases de données, le développement mobile, la sécurité informatique, et bien d'autres!"
   }
 ]

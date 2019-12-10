@@ -47,6 +47,13 @@
       "is_active": true
     },
     {
+      "name": "Mirego",
+      "plan": "i3",
+      "url": "https://www.mirego.com/fr",
+      "image_url": "/assets/img/sponsors/mirego.svg",
+      "is_active": true
+    },
+    {
       "name": "AGEG",
       "plan": "i3",
       "url": "https://ageg.ca/",

@@ -1,30 +1,23 @@
 [
   {
-    "name": "Émilio Gonzalez",
+    "name": "Guillaume Gervais",
     "title": "Président",
     "email": "president@jdis.ca",
-    "image_url": "egonzalez.jpeg",
-    "is_active": true
-  },
-  {
-    "name": "Guillaume Gervais",
-    "title": "Vice-président",
-    "email": "vice.president@jdis.ca",
     "image_url": "guillaume.jpg",
     "is_active": true
   },
   {
-    "name": "Maxime Carbonneau",
-    "title": "VP Compétitions",
-    "image_url": "mcarbonneau.jpg",
-    "email": "vp.competitions@jdis.ca",
+    "name": "Andy Chartier",
+    "title": "Vice-président",
+    "email": "vice.president@jdis.ca",
+    "image_url": "andy.jpg",
     "is_active": true
   },
   {
-    "name": "Ismael Balafrej",
-    "title": "VP Compétitions",
-    "image_url": "ismael.jpg",
-    "email": "vp.competitions@jdis.ca",
+    "name": "Émilio Gonzalez",
+    "title": "Trésorier",
+    "image_url": "egonzalez.jpeg",
+    "email": "tresorier@jdis.ca",
     "is_active": true
   },
   {
@@ -35,31 +28,24 @@
     "is_active": true
   },
   {
-    "name": "Ashiahanim Ayassor",
-    "title": "Formations",
-    "image_url": "ash.jpg",
-    "email": "vp.formation@jdis.ca",
+    "name": "Maxime Carbonneau",
+    "title": "VP Compétitions",
+    "image_url": "mcarbonneau.jpg",
+    "email": "vp.competitions@jdis.ca",
     "is_active": true
   },
   {
     "name": "Étienne Lévesque",
-    "title": "VP Conférences",
+    "title": "VP Sponsors",
     "image_url": "etienne.jpg",
     "email": "vp.conferences@jdis.ca",
     "is_active": true
   },
   {
-    "name": "Malcolm St. John",
-    "title": "Trésorier",
-    "image_url": "malcolm.jpg",
-    "email": "tresorier@jdis.ca",
-    "is_active": true
-  },
-  {
-    "name": "Émile Fugulin",
-    "title": "Transfert de connaissances",
-    "image_url": "efugulin.jpeg",
-    "email": "info@jdis.ca",
+    "name": " Francis Hamel",
+    "title": "VP Conférences",
+    "image_url": "francis.jpg",
+    "email": "vp.conferences@jdis.ca",
     "is_active": true
   }
 ]

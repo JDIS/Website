@@ -122,6 +122,15 @@ ul.grid {
     }
   }
 
+  &.grid-5 {
+    grid-gap: 0 2em;
+    align-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    @media (max-width: 767px){
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
   &.grid-4 {
     grid-gap: 0 2em;
     align-items: center;

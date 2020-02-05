@@ -2,7 +2,7 @@
   "big": [
     {
       "name": "Coveo",
-      "plan": "i3",
+      "plan": "i7",
       "url": "https://www.coveo.com/fr",
       "image_url": "/assets/img/sponsors/coveo.svg",
       "is_active": true,
@@ -10,11 +10,27 @@
     },
     {
       "name": "Sherweb",
-      "plan": "i5",
+      "plan": "i7",
       "url": "https://www.sherweb.com/fr/",
       "image_url": "/assets/img/sponsors/sherweb.svg",
       "is_active": true,
       "width": "medium"
+    }
+  ],
+  "medium": [
+    {
+      "name": "Université de Sherbrooke",
+      "plan": "Xeon",
+      "url": "https://www.usherbrooke.ca/",
+      "image_url": "/assets/img/sponsors/usherbrooke.svg",
+      "is_active": true
+    },
+    {
+      "name": "AGEG",
+      "plan": "i3",
+      "url": "https://ageg.ca/",
+      "image_url": "/assets/img/sponsors/ageg.svg",
+      "is_active": true
     }
   ],
   "small": [
@@ -33,17 +49,10 @@
       "is_active": true
     },
     {
-      "name": "Université de Sherbrooke",
-      "plan": "Xeon",
-      "url": "https://www.usherbrooke.ca/",
-      "image_url": "/assets/img/sponsors/usherbrooke.svg",
-      "is_active": true
-    },
-    {
       "name": "Nexapp",
       "plan": "i3",
       "url": "https://www.nexapp.ca/",
-      "image_url": "/assets/img/sponsors/nexapp.png",
+      "image_url": "/assets/img/sponsors/nexapp.svg",
       "is_active": true
     },
     {
@@ -54,10 +63,10 @@
       "is_active": true
     },
     {
-      "name": "AGEG",
+      "name": "Ubisoft Québec",
       "plan": "i3",
-      "url": "https://ageg.ca/",
-      "image_url": "/assets/img/sponsors/ageg.svg",
+      "url": "https://quebec.ubisoft.com/fr/",
+      "image_url": "/assets/img/sponsors/ubisoft_qc.png",
       "is_active": true
     }
   ]

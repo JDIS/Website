@@ -54,30 +54,30 @@ layout: page
 </ul>
 
 <h3 id="partenaires" class="section-title">Nos partenaires de succès</h3>
-<ul class="grid grid-2">
+<ul class="grid" style="padding-bottom: 2rem;">
   {% for sponsor in site.data.sponsors.big %}
-        {% if sponsor.width == "big" %}
-          <li style="margin: auto;">
-            <a href="{{ sponsor.url }}"><img src="{{ sponsor.image_url }}"/></a>
-          </li>
-        {% else %}
-          <li style="width:60%; margin: auto;">
-            <a href="{{ sponsor.url }}"><img src="{{ sponsor.image_url }}"/></a>
-          </li>
-        {% endif %}
-  {% endfor %}
-</ul>
-<ul class="grid grid-2">
-  {% for sponsor in site.data.sponsors.medium %}
     <li style="margin: auto;">
-      <a href="{{ sponsor.url }}"><img src="{{ sponsor.image_url }}"/></a>
+      <a href="{{ sponsor.url }}" target="_blank">
+        <img style="width: {{ sponsor.aspect_ratio | times: 10 | plus: sponsor.width_modifier }}rem;" src="{{ sponsor.image_url }}" />
+      </a>
     </li>
   {% endfor %}
 </ul>
-<ul class="grid grid-5">
+<ul class="grid" style="padding-bottom: 2rem;">
+  {% for sponsor in site.data.sponsors.medium %}
+    <li style="margin: auto;">
+      <a href="{{ sponsor.url }}" target="_blank">
+        <img style="width: {{ sponsor.aspect_ratio | times: 8 | plus: sponsor.width_modifier }}rem;" src="{{ sponsor.image_url }}" />
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+<ul class="grid" style="padding-bottom: 2rem;">
   {% for sponsor in site.data.sponsors.small %}
-    <li>
-      <a href="{{ sponsor.url }}"><img src="{{ sponsor.image_url }}"/></a>
+    <li style="margin: auto;">
+      <a href="{{ sponsor.url }}" target="_blank">
+        <img style="width: {{ sponsor.aspect_ratio | times: 5 | plus: sponsor.width_modifier }}rem;" src="{{ sponsor.image_url }}" />
+      </a>
     </li>
   {% endfor %}
 </ul>
@@ -90,7 +90,7 @@ layout: page
 <a class="intro__btn--main" href="/assets/pdf/PlanDeCommandite-JDIS-2020.pdf"><div>Plan de commandite 2020</div></a>
 
 <h3 id="evenements" class="section-title">Événements à venir</h3>
-<ul class="grid grid-3">
+<ul class="grid">
   {% for event in site.data.events %}
     <li class="event" data-timestamp="{{ event.date_unix }}">
       <div class="content">

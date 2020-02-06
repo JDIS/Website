@@ -63,37 +63,36 @@ $spacer: 20px;
   font-size: 0.8em;
 }
 
-ul.grid {
+.small-sponsor-image {
+  max-height: 10rem;
+  display: block;
+  margin: auto;
+}
+
+.medium-sponsor-image {
+  max-height: 12rem;
+  display: block;
+  margin: auto;
+}
+
+.big-sponsor-image {
+  max-height: 14rem;
+  display: block;
+  margin: auto;
+}
+
+.grid {
   list-style: none;
   display: grid;
+  grid-gap: 0 2em;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr) );
+  @media (max-width: 767px){
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   li {
     transition: all 0.15s ease-in-out;
-  }
-
-  &.grid-3 {
-    grid-gap: 2em;
-    align-items: flex-start;
-    grid-template-columns: repeat(3, 1fr);
-    @media (max-width: 767px){
-      grid-template-columns: repeat(2, 1fr);
-    }
-    @media (max-width: 560px){
-      grid-template-columns: repeat(1, 1fr);
-    }
-    li .content {
-      background: linear-gradient(135deg, hsl(160, 0%, 99%), hsl(151, 50%, 94%));
-      padding: 1em;
-      border-radius: 5px;
-
-      @media (min-width: 768px) {
-        height: 100%;
-      }
-
-      @media (max-width: 767px){
-        margin-bottom: 10px;
-      } 
-    }
   }
 
   &.grid-photos {
@@ -112,58 +111,7 @@ ul.grid {
       max-height: 90vh;
     }
   }
-
-  &.grid-6 {
-    grid-gap: 0 2em;
-    align-items: center;
-    grid-template-columns: repeat(6, 1fr);
-    @media (max-width: 767px){
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-
-  &.grid-5 {
-    grid-gap: 0 2em;
-    align-items: center;
-    grid-template-columns: repeat(5, 1fr);
-    @media (max-width: 767px){
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-
-  &.grid-4 {
-    grid-gap: 0 2em;
-    align-items: center;
-    grid-template-columns: repeat(4, 1fr);
-    @media (max-width: 767px){
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-  &.grid-3 {
-    grid-gap: 0 2em;
-    grid-template-columns: repeat(3, 1fr);
-    @media (max-width: 767px){
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
-
-  &.grid-2 {
-    grid-gap: 0 2em;
-    align-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    @media (max-width: 767px){
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
-  &.grid-1 {
-    grid-gap: 0 2em;
-    align-items: center;
-    grid-template-columns: repeat(1, 1fr);
-    @media (max-width: 767px){
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
+  
   &.grid-team {
     grid-gap: 0.5em 1.5em;
     align-items: flex-start;

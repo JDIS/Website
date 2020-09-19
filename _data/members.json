@@ -14,38 +14,40 @@
     "is_active": true
   },
   {
-    "name": "Émilio Gonzalez",
+    "name": "Malcolm St. John",
     "title": "Trésorier",
-    "image_url": "egonzalez.jpeg",
+    "image_url": "malcolm.jpg",
     "email": "tresorier@jdis.ca",
     "is_active": true
   },
   {
-    "name": "Peter Chatzi",
+    "name": "Michael Labrecque",
     "title": "VP Communication",
-    "image_url": "peter.jpg",
+    "image_url": "placeholder.png",
     "email": "vp.communication@jdis.ca",
     "is_active": true
   },
   {
-    "name": "Maxime Carbonneau",
-    "title": "VP Compétitions",
-    "image_url": "mcarbonneau.jpg",
-    "email": "vp.competitions@jdis.ca",
-    "is_active": true
-  },
-  {
-    "name": "Étienne Lévesque",
+    "name": "Timothy Landry",
     "title": "VP Sponsors",
-    "image_url": "etienne.jpg",
-    "email": "vp.conferences@jdis.ca",
-    "is_active": true
-  },
-  {
-    "name": " Francis Hamel",
-    "title": "VP Conférences",
-    "image_url": "francis.jpg",
-    "email": "vp.conferences@jdis.ca",
+    "image_url": "timothy.jpeg",
+    "email": "vp.commandites@jdis.ca",
     "is_active": true
   }
 ]
+
+  // {
+  //   "name": "A trouver",
+  //   "title": "VP Compétitions",
+  //   "image_url": "placeholder.png",
+  //   "email": "vp.competitions@jdis.ca",
+  //   "is_active": false
+  // },
+
+  // {
+  //   "name": "A trouver",
+  //   "title": "VP Conférences",
+  //   "image_url": "placeholder.png",
+  //   "email": "vp.conferences@jdis.ca",
+  //   "is_active": false
+  // }

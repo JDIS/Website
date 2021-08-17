@@ -6,16 +6,12 @@
   },
   "social": [
     {
-      "label": "Slack",
-      "url": "https://jdis.slack.com/"
+      "label": "Discord",
+      "url": "https://discord.gg/rNhbDSP/"
     },
     {
       "label": "Facebook",
       "url": "https://www.facebook.com/JDISherbrooke/"
-    },
-    {
-      "label": "Twitter",
-      "url": "https://twitter.com/JDISherbrooke/"
     },
     {
       "label": "GitHub",
@@ -31,3 +27,11 @@
     }
   ]
 }
+    // {
+    //   "label": "Slack",
+    //   "url": "https://jdis.slack.com/"
+    // },
+    // {
+    //   "label": "Twitter",
+    //   "url": "https://twitter.com/JDISherbrooke/"
+    // },

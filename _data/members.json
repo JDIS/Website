@@ -1,23 +1,9 @@
 [
   {
-    "name": "Guillaume Gervais",
-    "title": "Président",
+    "name": "Andy Chartier",
+    "title": "Président/Trésorier",
     "email": "president@jdis.ca",
     "image_url": "guillaume.jpg",
-    "is_active": true
-  },
-  {
-    "name": "Andy Chartier",
-    "title": "Vice-président",
-    "email": "vice.president@jdis.ca",
-    "image_url": "andy.jpg",
-    "is_active": true
-  },
-  {
-    "name": "Malcolm St. John",
-    "title": "Trésorier",
-    "image_url": "malcolm.jpg",
-    "email": "tresorier@jdis.ca",
     "is_active": true
   },
   {
@@ -26,16 +12,30 @@
     "image_url": "michael.jpg",
     "email": "vp.communication@jdis.ca",
     "is_active": true
-  },
-  {
-    "name": "Timothy Landry",
-    "title": "VP Sponsors",
-    "image_url": "timothy.jpeg",
-    "email": "vp.commandites@jdis.ca",
-    "is_active": true
   }
 ]
 
+  // {
+  //   "name": "Timothy Landry",
+  //   "title": "VP Sponsors",
+  //   "image_url": "timothy.jpeg",
+  //   "email": "vp.commandites@jdis.ca",
+  //   "is_active": true
+  // }
+  // {
+  //   "name": "Andy Chartier",
+  //   "title": "Vice-président",
+  //   "email": "vice.president@jdis.ca",
+  //   "image_url": "andy.jpg",
+  //   "is_active": true
+  // },
+  // {
+  //   "name": "Malcolm St. John",
+  //   "title": "Trésorier",
+  //   "image_url": "malcolm.jpg",
+  //   "email": "tresorier@jdis.ca",
+  //   "is_active": true
+  // },
   // {
   //   "name": "A trouver",
   //   "title": "VP Compétitions",

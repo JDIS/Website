@@ -1,9 +1,16 @@
 [
   {
     "name": "Andy Chartier",
-    "title": "Président/Trésorier",
+    "title": "Président",
     "email": "president@jdis.ca",
     "image_url": "andy.jpg",
+    "is_active": true
+  },
+  {
+    "name": "Jacty Saenz",
+    "title": "Trésorier",
+    "image_url": "placeholder.png",
+    "email": "tresorier@jdis.ca",
     "is_active": true
   },
   {
@@ -11,6 +18,20 @@
     "title": "VP Communication",
     "image_url": "michael.jpg",
     "email": "vp.communication@jdis.ca",
+    "is_active": true
+  },
+  {
+    "name": "Marie-Soleil Rioux",
+    "title": "VP Compétitions",
+    "image_url": "MarieSoleil.jpeg",
+    "email": "vp.competitions@jdis.ca",
+    "is_active": true
+  },
+  {
+    "name": "Benjamin Courchesne",
+    "title": "Adjoint Communication/Conférence",
+    "image_url": "placeholder.pmg",
+    "email": "vp.conferences@jdis.ca",
     "is_active": true
   }
 ]
@@ -36,13 +57,7 @@
   //   "email": "tresorier@jdis.ca",
   //   "is_active": true
   // },
-  // {
-  //   "name": "A trouver",
-  //   "title": "VP Compétitions",
-  //   "image_url": "placeholder.png",
-  //   "email": "vp.competitions@jdis.ca",
-  //   "is_active": false
-  // },
+
 
   // {
   //   "name": "A trouver",

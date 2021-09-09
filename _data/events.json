@@ -1,58 +1,16 @@
 [
   {
-    "name": "Midi-conférence 1",
-    "url": "",
-    "date": "18 septembre 2019",
-    "date_unix": 1568764800000,
-    "description": "Détails à venir"
+    "name": "UnitedCTF",
+    "url": "https://www.unitedctf.ca/",
+    "date": "17 au 26 septembre 2021",
+    "date_unix": 1631901600000,
+    "description": "UnitedCTF est une compétition informatique universitaire dans le format d’un CTF, proposant une multitude de défis de programmation et de sécurité informatique.\n\nCette année, le niveau de la compétition est orienté vers les débutants et débutantes afin de les initier au monde des CTF!"
   },
   {
-    "name": "Cabane.io Sherbrooke",
-    "url": "https://sherbrooke.cabane.io",
-    "date": "26 octobre 2019",
-    "date_unix": 1572048000000,
-    "description": "Cette première édition vise à promouvoir la communauté de développeurs à Sherbrooke qui est tout aussi vibrante que celle de Québec. Le prix inclut le dîner et peut-être quelques surprises..."
-  },
-  {
-    "name": "JDIS Academy #9: Introduction à Git",
-    "url": "",
-    "date": "28 octobre 2019",
-    "date_unix": 1572282000000,
-    "description": "Par Émile Fugulin"
-  },
-  {
-    "name": "Midi-conférence 2: Coveo",
-    "url": "",
-    "date": "6 novembre 2019",
-    "date_unix": 1572998400000,
-    "description": "Détails à venir"
-  },
-  {
-    "name": "JDIS Academy #10: Concepts avancés en Python",
-    "url": "",
-    "date": "11 novembre 2019",
-    "date_unix": 1573491600000,
-    "description": "Par Guillaume Jean"
-  },
-  {
-    "name": "Midi-conférence 3: Communication entre objets intelligents",
-    "url": "",
-    "date": "27 novembre 2019",
-    "date_unix": 1574812800000,
-    "description": " Les objets capables de communication envahissent tranquillement notre quotidien. Toutefois, leur façon actuelle de communiquer n’est pas toujours optimale. Dans cette présentation, je vais introduire une nouvelle forme de communication basée sur la distance entre les objets. Le protocole de communication ainsi défini sera ensuite illustré dans le contexte d’une intersection routière intelligente."
-  },
-  {
-    "name": "JDIS Academy #11: Windows Forensics",
-    "url": "",
-    "date": "25 novembre 2019",
-    "date_unix": 1574701200000,
-    "description": "Par Émilio Gonzalez"
-  },
-  {
-    "name": "Qualifications CS Games",
-    "url": "https://www.facebook.com/events/2668375503218712",
-    "date": "25 janvier 2020",
-    "date_unix": 1579453200000,
-    "description": "Les Computer Science Games, c'est une compétition inter-universitaire et multi-disciplinaire pour les étudiant-e-s en informatique (peu importe la faculté). Du 13 au 16 mars, une trentaine d'équipes d'une vingtaine d'universités en Amérique du Nord se rencontreront, socialiseront et, bien sûr, compétitionneront dans diverses branches de l'informatique telles que le développement Web, les bases de données, le développement mobile, la sécurité informatique, et bien d'autres!"
+    "name": "Hackfest",
+    "url": "https://hackfest.ca/",
+    "date": "19 et 20 novembre 2021",
+    "date_unix": 1637334000000,
+    "description": "Compétition de sécurité informatique offensive se déroulant probablement à distance encore une fois cette année."
   }
 ]

@@ -1,3 +1,10 @@
 [
 
+  {
+    "name": "Hackfest",
+    "url": "https://hackfest.ca/",
+    "date": "19 et 20 novembre 2021",
+    "date_unix": 1637334000000,
+    "description": "Compétition de sécurité informatique offensive se déroulant probablement à distance encore une fois cette année."
+  }
 ]

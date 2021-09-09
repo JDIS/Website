@@ -1,11 +1,5 @@
 [
-  {
-    "name": "UnitedCTF",
-    "url": "https://www.unitedctf.ca/",
-    "date": "17 au 26 septembre 2021",
-    "date_unix": 1631901600000,
-    "description": "UnitedCTF est une compétition informatique universitaire dans le format d’un CTF, proposant une multitude de défis de programmation et de sécurité informatique. Cette année, le niveau de la compétition est orienté vers les débutants et débutantes afin de les initier au monde des CTF!"
-  },
+
   {
     "name": "Hackfest",
     "url": "https://hackfest.ca/",

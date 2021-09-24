@@ -8,13 +8,14 @@
       "is_active": true,
       "aspect_ratio": 2.81,
       "width_modifier": 4
-    },
+    }
+    ,
     {
       "name": "Sherweb",
       "plan": "i7",
       "url": "https://www.sherweb.com/fr/",
       "image_url": "/assets/img/sponsors/sherweb.svg",
-      "is_active": true,
+      "is_active": false,
       "aspect_ratio": 4.39,
       "width_modifier": -8
     }
@@ -25,7 +26,7 @@
       "plan": "i5",
       "url": "https://www.usherbrooke.ca/",
       "image_url": "/assets/img/sponsors/usherbrooke.svg",
-      "is_active": true,
+      "is_active": false,
       "aspect_ratio": 6.33,
       "width_modifier": -20
     },
@@ -34,33 +35,13 @@
       "plan": "i5",
       "url": "https://ageg.ca/",
       "image_url": "/assets/img/sponsors/ageg.svg",
-      "is_active": true,
+      "is_active": false,
       "aspect_ratio": 1.49,
       "width_modifier": 6
-    }
-  ],
-  "small": [
-    {
-      "name": "Desjardins",
-      "plan": "i3",
-      "url": "https://www.desjardins.ca/",
-      "image_url": "/assets/img/sponsors/desjardins.svg",
-      "is_active": true,
-      "aspect_ratio": 4.65,
-      "width_modifier": 0
-    },
-    {
-      "name": "Sherbrooke Innopole",
-      "plan": "i3",
-      "url": "https://sherbrooke-innopole.com/",
-      "image_url": "/assets/img/sponsors/sherbrooke-innopole.svg",
-      "is_active": true,
-      "aspect_ratio": 3.63,
-      "width_modifier": 0
     },
     {
       "name": "Nexapp",
-      "plan": "i3",
+      "plan": "i5",
       "url": "https://www.nexapp.ca/",
       "image_url": "/assets/img/sponsors/nexapp.svg",
       "is_active": true,
@@ -69,7 +50,7 @@
     },
     {
       "name": "Mirego",
-      "plan": "i3",
+      "plan": "i5",
       "url": "https://www.mirego.com/fr",
       "image_url": "/assets/img/sponsors/mirego.svg",
       "is_active": true,
@@ -78,12 +59,32 @@
     },
     {
       "name": "Ubisoft Québec",
-      "plan": "i3",
+      "plan": "i5",
       "url": "https://quebec.ubisoft.com/fr/",
       "image_url": "/assets/img/sponsors/ubisoft_qc.png",
       "is_active": true,
       "aspect_ratio": 0.96,
       "width_modifier": 3
     }
+  ],
+  "small": [
+    {
+      "name": "Desjardins",
+      "plan": "i3",
+      "url": "https://www.desjardins.ca/",
+      "image_url": "/assets/img/sponsors/desjardins.svg",
+      "is_active": false,
+      "aspect_ratio": 4.65,
+      "width_modifier": 0
+    },
+    {
+      "name": "Sherbrooke Innopole",
+      "plan": "i3",
+      "url": "https://sherbrooke-innopole.com/",
+      "image_url": "/assets/img/sponsors/sherbrooke-innopole.svg",
+      "is_active": false,
+      "aspect_ratio": 3.63,
+      "width_modifier": 0
+    },
   ]
 }

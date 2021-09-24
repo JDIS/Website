@@ -9,36 +9,8 @@
       "aspect_ratio": 2.81,
       "width_modifier": 4
     }
-    //,
-    //{
-    //  "name": "Sherweb",
-    //  "plan": "i7",
-    //  "url": "https://www.sherweb.com/fr/",
-    //  "image_url": "/assets/img/sponsors/sherweb.svg",
-    //  "is_active": false,
-    //  "aspect_ratio": 4.39,
-    //  "width_modifier": -8
-    //}
   ],
   "medium": [
-    //{
-    //  "name": "Université de Sherbrooke",
-    //  "plan": "i5",
-    //  "url": "https://www.usherbrooke.ca/",
-    //  "image_url": "/assets/img/sponsors/usherbrooke.svg",
-    //  "is_active": false,
-    //  "aspect_ratio": 6.33,
-    //  "width_modifier": -20
-    //},
-    //{
-    //  "name": "AGEG",
-    //  "plan": "i5",
-    //  "url": "https://ageg.ca/",
-    //  "image_url": "/assets/img/sponsors/ageg.svg",
-    //  "is_active": false,
-    //  "aspect_ratio": 1.49,
-    //  "width_modifier": 6
-    //},
     {
       "name": "Nexapp",
       "plan": "i5",
@@ -68,23 +40,5 @@
     }
   ],
   "small": [
-    //{
-    //  "name": "Desjardins",
-    //  "plan": "i3",
-    //  "url": "https://www.desjardins.ca/",
-    //  "image_url": "/assets/img/sponsors/desjardins.svg",
-    //  "is_active": false,
-    //  "aspect_ratio": 4.65,
-    //  "width_modifier": 0
-    //},
-    //{
-    //  "name": "Sherbrooke Innopole",
-    //  "plan": "i3",
-    //  "url": "https://sherbrooke-innopole.com/",
-    //  "image_url": "/assets/img/sponsors/sherbrooke-innopole.svg",
-    //  "is_active": false,
-    //  "aspect_ratio": 3.63,
-    //  "width_modifier": 0
-    //},
   ]
 }

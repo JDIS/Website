@@ -8,6 +8,15 @@
       "is_active": true,
       "aspect_ratio": 5.81,
       "width_modifier": 8
+    },
+    {
+      "name": "Sherweb",
+      "plan": "i7",
+      "url": "https://www.sherweb.com/fr/",
+      "image_url": "/assets/img/sponsors/sherweb.svg",
+      "is_active": true,
+      "aspect_ratio": 4.39,
+      "width_modifier": -8
     }
   ],
   "medium": [

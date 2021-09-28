@@ -3,13 +3,31 @@
     "name": "UnitedCTF",
     "url": "https://www.unitedctf.ca/",
     "date": "17 au 26 septembre 2021",
+    "place":"Discord",
     "date_unix": 1631901600000,
     "description": "UnitedCTF est une compétition informatique universitaire dans le format d’un CTF, proposant une multitude de défis de programmation et de sécurité informatique. Cette année, le niveau de la compétition est orienté vers les débutants et débutantes afin de les initier au monde des CTF!"
+  },
+  {
+    "name": "Hacktoberfest",
+    "url": "https://hacktoberfest.digitalocean.com/",
+    "date": "tout octobre",
+    "place":"Online",
+    "date_unix": 1635724799000,
+    "description": "Evenement faisant la promotion de l'open source"
+  },
+  {
+    "name": "Introduction à l'Hacktoberfest",
+    "url": "https://hacktoberfest.digitalocean.com/",
+    "date": "30 septembre 19:00",
+    "place":"Discord",
+    "date_unix": 1633028400000,
+    "description": "Evenement faisant la promotion de l'open source"
   },
   {
     "name": "Hackfest",
     "url": "https://hackfest.ca/",
     "date": "19 et 20 novembre 2021",
+    "place":"Discord",
     "date_unix": 1637334000000,
     "description": "Compétition de sécurité informatique offensive se déroulant probablement à distance encore une fois cette année."
   }

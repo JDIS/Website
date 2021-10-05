@@ -10,10 +10,10 @@
   {
     "name": "Hacktoberfest",
     "url": "https://hacktoberfest.digitalocean.com/",
-    "date": "tout octobre",
+    "date": "tout le mois d'octobre",
     "place":"Online",
     "date_unix": 1635724799000,
-    "description": "Evenement faisant la promotion de l'open source"
+    "description": "Événement faisant la promotion de l'open source."
   },
   {
     "name": "Introduction à l'Hacktoberfest",
@@ -21,7 +21,7 @@
     "date": "30 septembre 19:00",
     "place":"Discord",
     "date_unix": 1633028400000,
-    "description": "Evenement faisant la promotion de l'open source"
+    "description": "Événement faisant la promotion de l'open source."
   },
   {
     "name": "Hackfest",

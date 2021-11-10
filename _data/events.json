@@ -24,11 +24,44 @@
     "description": "Événement faisant la promotion de l'open source."
   },
   {
+    "name": "TECHNO DRINKS SHERBROOKE: Architecture réactive et interopérabilité",
+    "url": "https://www.meetup.com/fr-FR/techno-drinks/events/dkqcpsyccpbwb/",
+    "date": "17 novembre 2021",
+    "place":"Espace TI",
+    "date_unix": 1637193600000,
+    "description": "Le rdv PAR et POUR les programmeurs! Entrée, bière et pizzas gratuites !"
+  },
+  {
     "name": "Hackfest",
     "url": "https://hackfest.ca/",
     "date": "19 et 20 novembre 2021",
     "place":"Discord",
     "date_unix": 1637334000000,
     "description": "Compétition de sécurité informatique offensive se déroulant probablement à distance encore une fois cette année."
-  }
+  },
+  {
+    "name": "TECHNO DRINKS SHERBROOKE",
+    "url": "https://www.meetup.com/fr-FR/techno-drinks/events/dkqcpsyccpbwb/",
+    "date": "15 décembre 2021",
+    "place":"Espace TI",
+    "date_unix": 1639612800000,
+    "description": "Le rdv PAR et POUR les programmeurs! Entrée, bière et pizzas gratuites !"
+  },
+  {
+    "name": "Inscription covéo blitz",
+    "url": "https://2022.blitz.codes/#/",
+    "date": "jusqu'au 23 novembre 2021 23h59",
+    "place":"",
+    "date_unix": 1637729940000,
+    "description": "La plus ancienne compétition de programmation informatique au québec spécialiser au niveau de l'intelligence artificiel. Se déroule à distance le 14 janvier 2022"
+  },
+  {
+    "name": "TECHNO DRINKS SHERBROOKE",
+    "url": "https://www.meetup.com/fr-FR/techno-drinks/events/dkqcpsyccpbwb/",
+    "date": "19 janvier 2022",
+    "place":"Espace TI",
+    "date_unix": 1642636800000,
+    "description": "Le rdv PAR et POUR les programmeurs! Entrée, bière et pizzas gratuites !"
+  },
+  
 ]

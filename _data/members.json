@@ -2,8 +2,11 @@
   {
     "name": "Andy Chartier",
     "title": "Président",
-    "email": "president@jdis.ca",
     "image_url": "andy.jpg",
+    "email": "president@jdis.ca",
+    "linkedin":"",
+    "github":"",
+    "personnalWebsite":"",
     "is_active": true
   },
   {
@@ -11,6 +14,9 @@
     "title": "Trésorière",
     "image_url": "Jacty.png",
     "email": "tresorier@jdis.ca",
+    "linkedin":"",
+    "github":"",
+    "personnalWebsite":"",
     "is_active": true
   },
   {
@@ -28,6 +34,9 @@
     "title": "VP Compétitions",
     "image_url": "MarieSoleil.jpeg",
     "email": "vp.competitions@jdis.ca",
+    "linkedin":"",
+    "github":"",
+    "personnalWebsite":"",
     "is_active": true
   },
   {
@@ -35,6 +44,9 @@
     "title": "Adjoint Communication/Conférence",
     "image_url": "benjamin.jpg",
     "email": "vp.conferences@jdis.ca",
+    "linkedin":"",
+    "github":"",
+    "personnalWebsite":"",
     "is_active": true
   }
 ]

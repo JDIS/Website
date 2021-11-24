@@ -126,6 +126,9 @@ layout: page
       <img class="member-image" src="/assets/img/members/{{ member.image_url }}" alt="{{ member.name }}, {{ member.title }}">
       <b>{{ member.name }}</b><br/>
       <span>{{ member.title }}</span><br/>
+      <span class="small-text"><a href="{{ member.github }}">{{ member.github }}</a></span>
+      <span class="small-text"><a href="{{ member.linkedin }}">{{ member.linkedin }}</a></span>
+      <span class="small-text"><a href="{{ member.personnalWebsite }}">{{ member.personnalWebsite }}</a></span>
       <span class="small-text"><a href="mailto:{{ member.email }}">{{ member.email }}</a></span>
     </li>
   {% endfor %}

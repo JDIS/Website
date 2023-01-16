@@ -56,7 +56,10 @@ $spacer: 20px;
 }
 
 .member-image {
-  margin-bottom: 0.7em;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  display: block;
 }
 
 .small-text {

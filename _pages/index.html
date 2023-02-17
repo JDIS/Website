@@ -54,40 +54,36 @@ layout: page
 </ul>
 
 <h3 id="partenaires" class="section-title">Nos partenaires de succès</h3>
-<ul class="grid" style="padding-bottom: 2rem;">
-  {% for sponsor in site.data.sponsors.big %}
-    <li style="margin: auto;">
-      <a href="{{ sponsor.url }}" target="_blank">
-        <img style="width: {{ sponsor.aspect_ratio | times: 10 | plus: sponsor.width_modifier }}rem;" src="{{ sponsor.image_url }}" />
-      </a>
-    </li>
-  {% endfor %}
-</ul>
-<ul class="grid" style="padding-bottom: 2rem;">
-  {% for sponsor in site.data.sponsors.medium %}
-    <li style="margin: auto;">
-      <a href="{{ sponsor.url }}" target="_blank">
-        <img style="width: {{ sponsor.aspect_ratio | times: 8 | plus: sponsor.width_modifier }}rem;" src="{{ sponsor.image_url }}" />
-      </a>
-    </li>
-  {% endfor %}
-</ul>
-<ul class="grid" style="padding-bottom: 2rem;">
-  {% for sponsor in site.data.sponsors.small %}
-    <li style="margin: auto;">
-      <a href="{{ sponsor.url }}" target="_blank">
-        <img style="width: {{ sponsor.aspect_ratio | times: 5 | plus: sponsor.width_modifier }}rem;" src="{{ sponsor.image_url }}" />
-      </a>
-    </li>
-  {% endfor %}
-</ul>
+<section class="flex-x-center">
+  <div class="grid i7" style="padding-bottom: 2rem;">
+    {% for sponsor in site.data.sponsors.big %}
+        <a href="{{ sponsor.url }}" target="_blank">
+          <img src="{{ sponsor.image_url }}" />
+        </a>
+    {% endfor %}
+      </div>
+  <div class="grid i5" style="padding-bottom: 2rem;">
+    {% for sponsor in site.data.sponsors.medium %}
+        <a href="{{ sponsor.url }}" target="_blank">
+          <img src="{{ sponsor.image_url }}" />
+        </a>
+    {% endfor %}
+      </div>
+  <div class="grid i3" style="padding-bottom: 2rem;">
+    {% for sponsor in site.data.sponsors.small %}
+        <a href="{{ sponsor.url }}" target="_blank">
+          <img src="{{ sponsor.image_url }}" />
+        </a>
+    {% endfor %}
+      </div>
+</section>
 <p class="narrow">
   C'est grâce à nos partenaires que nous arrivons à offrir des opportunités de choix aux étudiants, que ce soit pour nos délégations de compétitions ou lors d'organisation d'événements.
 </p>
 <p class="narrow">
   Vous souhaitez nous appuyer? Jetez un coup d'oeil à notre plan de commandites, et entrez en contact avec nous par courriel au <a href="mailto:info@jdis.ca">info@jdis.ca</a>.
 </p>
-<a class="intro__btn--main" href="/assets/pdf/PlanDeCommandite - 2021.pdf"><div>Plan de commandite 2021</div></a>
+<a class="intro__btn--main" href="/assets/pdf/Accord de commandite 2022 - 2023.pdf"><div>Plan de commandite 2022-2023</div></a>
 
 <h3 id="evenements" class="section-title">Événements à venir</h3>
 <ul class="grid">
@@ -120,19 +116,19 @@ layout: page
 </div>
 
 <h3 id="equipe" class="section-title">L'équipe</h3>
-<ul class="grid grid-team">
-  {% for member in site.data.members %}
-    <li class="member">
-      <img class="member-image" src="/assets/img/members/{{ member.image_url }}" alt="{{ member.name }}, {{ member.title }}">
-      <b>{{ member.name }}</b><br/>
-      <span>{{ member.title }}</span><br/>
-      <div><a href="{{ member.github }}">Github</a></div>
-      <div><a href="{{ member.linkedin }}">LinkedIn</a></div>
-      <div><a href="{{ member.personnalWebsite }}">{{ member.personnalWebsite }}</a></div>
-      <span class="small-text"><a href="mailto:{{ member.email }}">{{ member.email }}</a></span>
-    </li>
-  {% endfor %}
-  </ul>
+  <div class="grid">
+    {% for member in site.data.members %}
+      <div class="member-card">
+        <img src="/assets/img/members/{{ member.image_url }}" />
+        <h3>{{ member.name }}</h3>
+        <p>{{ member.title }}</p>
+        <div class="member__social">
+          <a href="{{ member.github }}"><i class="fab fa-github"></i></a>
+          <a href="{{ member.linkedin }}"><i class="fab fa-linkedin"></i></a> 
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 
 <h3 id="contact" class="section-title">Pour nous rejoindre</h3>
 <div class="social">
@@ -142,5 +138,5 @@ layout: page
 </div>
 <br />
 <span>2500 Boulevard de l'Université, Sherbrooke, Qc, Canada</span><br />
-<span>D4-2009, Université de Sherbrooke</span>
+<span>D4-1010-25, Université de Sherbrooke</span>
 <script src="/assets/js/events.js"></script>

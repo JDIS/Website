@@ -4,6 +4,12 @@
 // Default spacing unit
 $spacer: 20px;
 
+.flex-x-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .container {
   max-width: 90vw;
   margin: 0 auto;
@@ -55,12 +61,34 @@ $spacer: 20px;
   margin-bottom: 1em;
 }
 
-.member-image {
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-  display: block;
+.member-card {
+  text-align: center;
+
+  img {
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+  }
+
+  h3 {
+    margin-top: 10px;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: black;
+  }
 }
+
+.member__social {
+  display: flex;
+  justify-content: center;
+  gap: 1.2em;
+}
+
 
 .small-text {
   font-size: 0.8em;
@@ -84,12 +112,67 @@ $spacer: 20px;
   margin: auto;
 }
 
+.grid.i3 {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 3rem;
+
+  img {
+    max-height: 2.5rem;
+  }
+
+  max-width: 800px;
+}
+
+.grid.i5 {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 4rem;
+
+  img {
+    max-height: 4rem;
+  }
+
+  max-width: 800px;
+}
+
+.grid.i7 {
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 5rem;
+
+  img {
+    max-height: 5rem;
+  }
+
+  max-width: 800px;
+}
+
+.i3 a, .i5 a, .i7 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.i3 img, .i5 img, .i7 img {
+  max-width: 100%;
+}
+
+.i5 a:nth-child(3n) img {
+  max-height: 7rem !important;
+}
+
+.i5 a:first-child img {
+  max-width: 70% !important;
+}
+
+.i5 a:nth-child(2) img {
+  max-height: 3rem !important;
+}
+
 .grid {
   list-style: none;
   display: grid;
-  grid-gap: 0 2em;
-  align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr) );
+  grid-gap: 2em;
+  align-items: stretch;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) );
   @media (max-width: 767px){
     grid-template-columns: repeat(2, 1fr);
   }
@@ -176,4 +259,14 @@ body{
     position:absolute;
     bottom:0;
   }
+}
+
+.github {
+  width: 16px;
+  height: 16px;
+}
+
+.linkedin {
+  width: 18px;
+  height: 16px;
 }

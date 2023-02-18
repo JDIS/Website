@@ -3,76 +3,48 @@
     {
       "name": "Coveo",
       "plan": "i7",
-      "url": "https://www.coveo.com/fr",
-      "image_url": "/assets/img/sponsors/coveo.svg",
-      "is_active": true,
-      "aspect_ratio": 2.78,
-      "width_modifier": 8,
-      "top":0
-    },
-    {
-      "name": "Sherweb",
-      "plan": "i7",
-      "url": "https://www.sherweb.com/fr/",
-      "image_url": "/assets/img/sponsors/sherweb.jpg",
-      "is_active": true,
-      "aspect_ratio": 5,54,
-      "width_modifier": 13,
-      "top":15
+      "url": "https://www.wolterskluwer.com/fr-ca/",
+      "image_url": "/assets/img/sponsors/wolters_kluwer.svg"
     }
   ],
   "medium": [
     {
-      "name": "Nexapp",
+      "name": "Innovmetric",
       "plan": "i5",
-      "url": "https://www.nexapp.ca/",
-      "image_url": "/assets/img/sponsors/nexapp.svg",
-      "is_active": true,
-      "aspect_ratio": 4.18,
-      "width_modifier": -10,
-      "top":0
+      "url": "https://www.innovmetric.com/",
+      "image_url": "/assets/img/sponsors/innovmetric.svg"
     },
     {
-      "name": "Mirego",
+      "name": "Pinax",
       "plan": "i5",
-      "url": "https://www.mirego.com/fr",
-      "image_url": "/assets/img/sponsors/mirego.svg",
-      "is_active": true,
-      "aspect_ratio": 3.55,
-      "width_modifier": -7,
-      "top":0
+      "url": "https://eosnation.io/",
+      "image_url": "/assets/img/sponsors/pinax.svg"
     },
     {
-      "name": "Ubisoft Québec",
+      "name": "Ubisoft Sherbrooke",
       "plan": "i5",
       "url": "https://quebec.ubisoft.com/fr/",
-      "image_url": "/assets/img/sponsors/ubisoft_qc.png",
-      "is_active": true,
-      "aspect_ratio": 0.96,
-      "width_modifier": 3,
-      "top":0
+      "image_url": "/assets/img/sponsors/ubisoft_sherbrooke.svg"
+    },
+    {
+      "name": "Coveo",
+      "plan": "i5",
+      "url": "https://www.coveo.com/fr",
+      "image_url": "/assets/img/sponsors/coveo.svg"
     }
   ],
   "small": [
     {
-      "name": "Université de Sherbrooke",
+      "name": "NexApp",
       "plan": "i3",
-      "url": "https://usherbrooke.ca",
-      "image_url": "/assets/img/sponsors/usherbrooke.svg",
-      "is_active": true,
-      "aspect_ratio": 6.33,
-      "width_modifier": -15,
-      "top":0
+      "url": "https://www.nexapp.ca/?lang=en",
+      "image_url": "/assets/img/sponsors/nexapp.svg"
     },
     {
-      "name": "Sherbrooke Innopole",
+      "name": "Université de Sherbrooke",
       "plan": "i3",
-      "url": "https://sherbrooke-innopole.com/",
-      "image_url": "/assets/img/sponsors/sherbrooke-innopole.svg",
-      "is_active": true,
-      "aspect_ratio": 3.63,
-      "width_modifier": -3,
-      "top":0
-    },
+      "url": "https://www.usherbrooke.ca/",
+      "image_url": "/assets/img/sponsors/udes.svg"
+    }
   ]
 }

@@ -57,8 +57,8 @@ layout: page
 <section class="flex-x-center">
   <div class="grid i7" style="padding-bottom: 2rem;">
     {% for sponsor in site.data.sponsors.big %}
-        <a href="{{ sponsor.url }}" target="_blank">
-          <img src="{{ sponsor.image_url }}" />
+        <a href="{{ sponsor.url }}"target="_blank">
+          <img style="{{ sponsor.style }}"  src="{{ sponsor.image_url }}" />
         </a>
     {% endfor %}
       </div>

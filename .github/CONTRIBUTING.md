@@ -37,4 +37,4 @@ git checkout -b feat/${name_of_your_modification}
 git push origin feat/${name_of_your_modification}
 ```
 
-10. Cr/er une pull request sur Github
+10. Créer une pull request sur Github

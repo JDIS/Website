@@ -23,7 +23,7 @@ git push origin master     # to update your remote fork
 
 5. Crée une branche séparée
 ```bash
-git checkout -a feat/${name_of_your_modification}
+git checkout -b feat/${name_of_your_modification}
 ```
 
 6. Effectuer les modifications

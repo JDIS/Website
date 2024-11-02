@@ -7,7 +7,7 @@
 
 2. Cloner le dépôt forké
 ```bash
-git clone https://github.com/${your_username}/Website
+git clone https://github.com/${your_username}/Website.git
 ```
 
 3. Configurer le dépôt distant (upstream)

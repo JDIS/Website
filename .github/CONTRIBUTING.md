@@ -12,7 +12,7 @@ git clone https://github.com/${your_username}/Website.git
 
 3. Configurer le dépôt distant (upstream)
 ```bash
-git remote add upstream https://github.com/JDIS/Website
+git remote add upstream https://github.com/JDIS/Website.git
 ```
 
 4. Assurez-vous de récupérer les dernières modifications de l'upstream

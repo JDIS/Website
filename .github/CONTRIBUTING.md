@@ -18,7 +18,7 @@ git remote add upstream https://github.com/JDIS/Website
 4. Assurez-vous de récupérer les dernières modifications de l'upstream
 ```bash
 git pull upstream main
-git push origin main     # to update your remote fork
+git push origin master     # to update your remote fork
 ```
 
 5. Crée une branche séparée

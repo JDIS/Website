@@ -15,7 +15,7 @@
     "image_url": "Anais_Lanthier.png",
     "email": "vice.president@jdis.ca",
     "linkedin":"https://www.linkedin.com/in/anaïs-lanthier-66739b307/",
-    "github":"https://github.com/anaislanthierr",
+    "github":"https://github.com/anaislanthier",
     "personnalWebsite":"",
     "is_active": true
   },
@@ -56,6 +56,16 @@
     "email": "vp.communication@jdis.ca",
     "linkedin":"",
     "github":"https://github.com/MrSpaghettii",
+    "personnalWebsite":"",
+    "is_active": true
+  },
+  {
+    "name": "Jean-François Labbé",
+    "title": "VP Communications",
+    "image_url": "JF_Labbe.png",
+    "email": "vp.communication@jdis.ca",
+    "linkedin":"https://www.linkedin.com/in/jean-françois-labbé-247611247/",
+    "github":"https://github.com/gitlabbe",
     "personnalWebsite":"",
     "is_active": true
   },

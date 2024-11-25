@@ -1,66 +1,116 @@
 [
   {
-    "name": "Benjamin Courchesne",
+    "name": "Julien Brisson",
     "title": "Président",
-    "image_url": "Benjamin_Courchesne.jpg",
+    "image_url": "Julien_Brisson.png",
     "email": "president@jdis.ca",
-    "linkedin": "https://www.linkedin.com/in/benjamin-courchesne-751b74152/",
-    "github": "https://github.com/Capucinoxx",
+    "linkedin": "https://www.linkedin.com/in/julien-brisson-4a1245230/",
+    "github": "",
+    "personnalWebsite":"",
+    "is_active": true
+  },
+  {
+    "name": "Anaïs Lanthier",
+    "title": "Vice Présidente",
+    "image_url": "Anais_Lanthier.png",
+    "email": "vice.president@jdis.ca",
+    "linkedin":"https://www.linkedin.com/in/anaïs-lanthier-66739b307/",
+    "github":"https://github.com/anaislanthierr",
+    "personnalWebsite":"",
+    "is_active": true
+  },
+  {
+    "name": "Ariadne Paradis",
+    "title": "Trésorie",
+    "image_url": "Ariadne_Paradis.png",
+    "email": "tresorier@jdis.ca",
+    "linkedin":"https://www.linkedin.com/in/ariadne-paradis/",
+    "github":"https://github.com/ThreadGiver",
+    "personnalWebsite":"",
+    "is_active": true
+  },
+  {
+    "name": "Bryan Gasse",
+    "title": "VP Subventions",
+    "image_url": "Bryan_Gasse.png",
+    "email": "tresorier@jdis.ca",
+    "linkedin":"https://www.linkedin.com/in/bryan-gasse-b392a7181",
+    "github":"https://github.com/Alophes",
+    "personnalWebsite":"",
+    "is_active": true
+  },
+  {
+    "name": "Zoé Lamothe-Morin",
+    "title": "VP Communications",
+    "image_url": "Zoe_Lamothe_Morin.png",
+    "email": "vp.communication@jdis.ca",
+    "linkedin":"https://www.linkedin.com/in/zo%C3%A9-lamothe-morin-7b74a5309/",
+    "github":"",
+    "personnalWebsite":"",
+    "is_active": true
+  },
+  {
+    "name": "Antoine-Olivier Monaco",
+    "title": "VP Communications",
+    "image_url": "Antoine-Olivier.png",
+    "email": "vp.communication@jdis.ca",
+    "linkedin":"",
+    "github":"https://github.com/MrSpaghettii",
+    "personnalWebsite":"",
+    "is_active": true
+  },
+  {
+    "name": "Béatrice Gagnon",
+    "title": "VP Commandites",
+    "image_url": "Béatrice_Gagnon.png",
+    "email": "vp.commandites@jdis.ca",
+    "linkedin":"https://www.linkedin.com/in/b%C3%A9atrice-gagnon/",
+    "github":"https://github.com/bayatriss",
+    "personnalWebsite":"",
+    "is_active": true
+  },
+  {
+    "name": "Lea Roy",
+    "title": "VP Compétitions",
+    "image_url": "Lea_Roy.png",
+    "email": "vp.competitions@jdis.ca",
+    "linkedin":"https://www.linkedin.com/in/lea-roy-2a42b0228/",
+    "github":"https://github.com/Lea1496",
+    "personnalWebsite":"",
+    "is_active": true
+  },
+  {
+    "name": "Camil Rondeau",
+    "title": "VP Compétitions",
+    "image_url": "Camil_Rondeau.png",
+    "email": "vp.competitions@jdis.ca",
+    "linkedin":"https://www.linkedin.com/in/camil-rondeau-7572112a9/",
+    "github":"https://github.com/DrPickle3",
     "personnalWebsite":"",
     "is_active": true
   },
   {
     "name": "Jacty Saenz",
-    "title": "Trésorière",
+    "title": "Membre du CE",
     "image_url": "Jacty_Saenz.png",
-    "email": "tresorier@jdis.ca",
+    "email": "info@jdis.ca",
     "linkedin":"https://www.linkedin.com/in/jacty-saenz-856a0a203/",
     "github":"https://github.com/jactymilena",
-    "personnalWebsite":"",
-    "is_active": true
-  },
-  {
-    "name": "Louis Patrick Geoffroy",
-    "title": "VP Communications",
-    "image_url": "Louis_Patrick_Geoffroy.jfif",
-    "email": "info@jdis.ca",
-    "linkedin":"https://www.linkedin.com/in/louis-patrick-geoffroy-157884207/",
-    "github":"",
-    "personnalWebsite":"",
-    "is_active": true
-  },
-  {
-    "name": "Marie-Soleil Rioux",
-    "title": "VP Communications",
-    "image_url": "Marie-Soleil_Rioux.jpeg",
-    "email": "info@jdis.ca",
-    "linkedin":"https://www.linkedin.com/in/marie-soleil-rioux-a03100211/",
-    "github":"",
-    "personnalWebsite":"",
-    "is_active": true
-  },
-  {
-    "name": "Jean-Simon Desmarais",
-    "title": "VP Commandites",
-    "image_url": "Jean-Simon_Desmarais.png",
-    "email": "info@jdis.ca",
-    "linkedin":"https://www.linkedin.com/in/jean-simon-desmarais-b13a61228/",
-    "github":"",
-    "personnalWebsite":"",
-    "is_active": true
-  },
-  {
-    "name": "Martin Dufour",
-    "title": "VP Compétitions",
-    "image_url": "Martin_Dufour.png",
-    "email": "info@jdis.ca",
-    "linkedin":"",
-    "github":"",
     "personnalWebsite":"",
     "is_active": true
   }
 ]
 
+// {
+//   "name": "Martin Dufour",
+//   "title": "VP Compétitions",
+//   "image_url": "Martin_Dufour.png",
+//   "email": "info@jdis.ca",
+//   "linkedin":"",
+//   "github":"",
+//   "personnalWebsite":"",
+//   "is_active": true
+// }
   // {
   //   "name": "Timothy Landry",
   //   "title": "VP Sponsors",

@@ -1,11 +1,11 @@
 [
   {
-    "name": "Julien Brisson",
-    "title": "Président",
-    "image_url": "Julien_Brisson.png",
+    "name": "Béatrice Gagnon",
+    "title": "Précidente",
+    "image_url": "Béatrice_Gagnon.png",
     "email": "president@jdis.ca",
-    "linkedin": "https://www.linkedin.com/in/julien-brisson-4a1245230/",
-    "github": "",
+    "linkedin":"https://www.linkedin.com/in/b%C3%A9atrice-gagnon/",
+    "github":"https://github.com/bayatriss",
     "personnalWebsite":"",
     "is_active": true
   },
@@ -21,7 +21,7 @@
   },
   {
     "name": "Ariadne Paradis",
-    "title": "Trésorie",
+    "title": "Trésorerie",
     "image_url": "Ariadne_Paradis.png",
     "email": "tresorier@jdis.ca",
     "linkedin":"https://www.linkedin.com/in/ariadne-paradis/",
@@ -40,26 +40,6 @@
     "is_active": true
   },
   {
-    "name": "Zoé Lamothe-Morin",
-    "title": "VP Communications",
-    "image_url": "Zoe_Lamothe_Morin.png",
-    "email": "vp.communication@jdis.ca",
-    "linkedin":"https://www.linkedin.com/in/zo%C3%A9-lamothe-morin-7b74a5309/",
-    "github":"",
-    "personnalWebsite":"",
-    "is_active": true
-  },
-  {
-    "name": "Antoine-Olivier Monaco",
-    "title": "VP Communications",
-    "image_url": "Antoine-Olivier.png",
-    "email": "vp.communication@jdis.ca",
-    "linkedin":"",
-    "github":"https://github.com/MrSpaghettii",
-    "personnalWebsite":"",
-    "is_active": true
-  },
-  {
     "name": "Jean-François Labbé",
     "title": "VP Communications",
     "image_url": "JF_Labbe.png",
@@ -70,12 +50,12 @@
     "is_active": true
   },
   {
-    "name": "Béatrice Gagnon",
-    "title": "VP Commandites",
-    "image_url": "Béatrice_Gagnon.png",
-    "email": "vp.commandites@jdis.ca",
-    "linkedin":"https://www.linkedin.com/in/b%C3%A9atrice-gagnon/",
-    "github":"https://github.com/bayatriss",
+    "name": "Frederic Taylor",
+    "title": "VP Communications",
+    "image_url": "Frederic_Taylor.jpeg",
+    "email": "vp.communication@jdis.ca",
+    "linkedin":"https://www.linkedin.com/in/frederick-taylor-5709551b8/",
+    "github":"https://github.com/fred41378",
     "personnalWebsite":"",
     "is_active": true
   },
@@ -100,12 +80,22 @@
     "is_active": true
   },
   {
-    "name": "Jacty Saenz",
+    "name": "Julien Brisson",
     "title": "Membre du CE",
-    "image_url": "Jacty_Saenz.png",
+    "image_url": "Julien_Brisson.png",
     "email": "info@jdis.ca",
-    "linkedin":"https://www.linkedin.com/in/jacty-saenz-856a0a203/",
-    "github":"https://github.com/jactymilena",
+    "linkedin": "https://www.linkedin.com/in/julien-brisson-4a1245230/",
+    "github": "",
+    "personnalWebsite":"",
+    "is_active": true
+  },
+  {
+    "name": "Antoine-Olivier Monaco",
+    "title": "Membre du CE",
+    "image_url": "Antoine-Olivier.png",
+    "email": "info@jdis.ca",
+    "linkedin":"",
+    "github":"https://github.com/MrSpaghettii",
     "personnalWebsite":"",
     "is_active": true
   }

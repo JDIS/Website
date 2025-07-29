@@ -1,6 +1,10 @@
 // @name Layout
 // @description All layout settings and styles
 
+@use "variables" as *;
+@use "sass:color";
+
+
 // Default spacing unit
 $spacer: 20px;
 
@@ -229,33 +233,33 @@ body{
     width:33.33333%;
   }
   span:nth-child(1){
-    background:transparentize(green, 0.9);
+    background: color.adjust(green, $alpha: -0.9);
     right:16%;
     top:50px;
     position:absolute;
   }
   span:nth-child(2){
     height: 200px;
-    background:transparentize(rgb(76, 207, 53), 0.9);
+    background:color.adjust(rgb(76, 207, 53), $alpha: -0.9);
     right:-16%;
     top:30%;
     position:absolute;
   }
   span:nth-child(3){
-    background:transparentize(black, 0.9);
+    background:color.adjust(black, $alpha: -0.9);
     left:-16%;
     top:0px;
     position:absolute;
   }
   span:nth-child(4){
-    background:linear-gradient(90deg, transparentize($jdis-green, 0.9), transparentize(white, 0.9));
+    background:linear-gradient(90deg, color.adjust($jdis-green, $alpha: -0.9), color.adjust(white, $alpha: -0.9));
     position:absolute;
     bottom:150px;
     right:0;
   }
   span:nth-child(5){
     background:$jdis-green;
-    background:transparentize($jdis-green, 0.8);
+    background:color.adjust($jdis-green, $alpha: -0.8);
     position:absolute;
     bottom:0;
   }

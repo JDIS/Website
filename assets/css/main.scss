@@ -3,10 +3,10 @@
 ---
 
 // Import all partials from _sass
-@import
-  'variables',
-  'reset',
-  'layout',
-  'typography',
-  'header',
-  'footer'
+
+@use "variables";
+@use "reset";
+@use "layout";
+@use "typography";
+@use "header";
+@use "footer";

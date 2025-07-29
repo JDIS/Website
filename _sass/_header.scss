@@ -1,6 +1,10 @@
 // @name Header
 // @description All header styles
 
+@use "variables" as *;
+@use "layout" as *;
+@use "sass:math";
+
 header {
   padding: ($spacer * 2) 0;
   margin-bottom: ($spacer * 2);
@@ -73,6 +77,6 @@ header {
 
 .social {
   a {
-    margin-right: $spacer / 2 !important;
+    margin-right: math.div($spacer, 2) !important;
   }
 }

@@ -1,0 +1,48 @@
+name: Build and Deploy
+
+on:
+    # Trigger for all pushes and pull requests
+    push:
+    pull_request:
+        branches: [master]
+    # Allows you to run this workflow manually from the Actions tab on GitHub.
+    workflow_dispatch:
+
+# Allow this job to clone the repo and create a page deployment
+permissions:
+    contents: read
+    pages: write
+    id-token: write
+
+jobs:
+    # Build job that runs for all branches
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout your repository using git
+              uses: actions/checkout@v4
+
+            - name: Show build context
+              run: |
+                  echo "Building branch: ${{ github.ref_name }}"
+                  echo "Event type: ${{ github.event_name }}"
+                  echo "Will deploy: ${{ github.ref == 'refs/heads/master' && github.event_name == 'push' }}"
+
+            - name: Install, build, and upload your site
+              uses: withastro/action@v3
+              with:
+                  package-manager: bun@latest
+
+    # Deploy job that only runs for master branch pushes
+    deploy:
+        # Only run deploy on master branch pushes, not on PRs or other branches
+        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+        needs: build
+        runs-on: ubuntu-latest
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+        steps:
+            - name: Deploy to GitHub Pages
+              id: deployment
+              uses: actions/deploy-pages@v4

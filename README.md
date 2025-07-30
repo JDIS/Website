@@ -6,13 +6,7 @@ Ce dépôt contient les ressources du site web public de JDIS, accessible à l'a
 
 ### 1. Installer les dépendances globales
 
-Vous devez installer [Ruby](https://www.ruby-lang.org/fr/documentation/installation/).
-
-Une fois que Ruby est installé, vous devez installer Bundler :
-
-```sh
-gem install bundler
-```
+Vous devez installer [Bun](https://bun.sh/).
 
 ### 2. Cloner le dépôt
 
@@ -23,16 +17,16 @@ git clone git@github.com:JDIS/Website.git && cd Website
 ### 3. Installer les dépendances du projet
 
 ```sh
-bundle install
+bun install
 ```
 
 ### 4. Démarrer le serveur
 
 ```sh
-bundle exec jekyll serve
+bun dev
 ```
 
-Le site web devrait être disponible localement à l'adresse suivante: <http://localhost:4000/>.
+Le site web devrait être disponible localement à l'adresse suivante: <http://localhost:4321/>.
 
 ## Pour contribuer
 

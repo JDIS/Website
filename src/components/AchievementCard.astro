@@ -1,0 +1,17 @@
+---
+export interface Props {
+    achievement: {
+        event: string;
+        achievement: string;
+    };
+}
+
+const { achievement } = Astro.props;
+---
+
+<div class="inline-block border-2 border-black p-4 pr-8">
+    <div>
+        <b>{achievement.event}</b><br />
+        {achievement.achievement}
+    </div>
+</div>

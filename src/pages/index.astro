@@ -1,0 +1,156 @@
+---
+import { Image } from "astro:assets";
+
+import PageLayout from "../layouts/PageLayout.astro";
+
+import AchievementCard from "../components/AchievementCard.astro";
+import EventCard from "../components/EventCard.astro";
+import MemberCard from "../components/MemberCard.astro";
+import SponsorCard from "../components/SponsorCard.astro";
+import Stripes from "../components/Stripes.astro";
+
+import achievementsData from "../data/achievements.json";
+import contactData from "../data/contact.json";
+import eventsData from "../data/events.json";
+import membersData from "../data/members.json";
+import sponsorsData from "../data/sponsors.json";
+
+import jdisGames2024 from "../assets/photos/jdis-games-2024.jpg";
+import northsecCtf2024 from "../assets/photos/northsec-ctf-2024.jpg";
+import teamlfxConference2024 from "../assets/photos/teamlfx-midi-conference-2024.jpg";
+---
+
+<PageLayout>
+    <Stripes />
+
+    <header class="mb-10 py-10 sm:mb-15 sm:py-15">
+        <div class="mb-10 max-w-3xl">
+            <p class="intro__main">JDIS, c'est plus de 350 étudiant-e-s en informatique à l'UdeS.</p>
+            <p class="mt-4 leading-relaxed">
+                Avec une communauté toujours grandissante, plusieurs participations aux événements informatiques de la
+                province ainsi qu'une foule d'activités organisées chaque année,
+                <strong>Jeux et défis informatiques de Sherbrooke</strong> est l'organisation étudiante d'informatique par
+                excellence de l'Université de Sherbrooke.
+            </p>
+            <a class="intro__btn--main" href="#jdis"><div>En savoir plus</div></a>
+        </div>
+    </header>
+
+    <h3 id="jdis" class="section-title border-t-0">JDIS?</h3>
+    <p class="mb-4 max-w-3xl">
+        Jeux et défis informatiques de Sherbrooke, aussi connue sous le nom de JDIS (prononcé «jedi», comme dans <em
+            >Star Wars</em
+        >), est une organisation étudiante formée <em>par</em> les étudiant-e-s et <em>pour</em> les étudiant-e-s en informatique
+        de l'Université de Sherbrooke.
+    </p>
+
+    <h3 class="section-title border-t-0">Concrètement, JDIS c'est...</h3>
+    <ul class="mb-8 grid grid-cols-1 items-center gap-8 md:grid-cols-3">
+        <li>
+            <div class="mb-2 font-bold">Des midis-conférences à l'UdeS</div>
+            <div>
+                <Image
+                    src={teamlfxConference2024}
+                    alt="Midi-conférence présenté par Team LFX"
+                    class="max-h-[90vh] max-w-full rounded"
+                />
+            </div>
+            <p class="text-sm">
+                <span class="font-bold italic">Devenir travailleur autonome</span>, par Team LFX<br />UdeS, septembre
+                2024
+            </p>
+        </li>
+        <li>
+            <div class="mb-2 font-bold">Des délégations aux événements externes</div>
+            <div>
+                <Image src={northsecCtf2024} alt="NorthSec CTF 2024" class="max-h-[90vh] max-w-full rounded" />
+            </div>
+            <p class="text-sm">
+                <span class="font-bold">NorthSec</span> &mdash; Compétition de sécurité informatique<br />Montréal, mai
+                2024
+            </p>
+        </li>
+        <li>
+            <div class="mb-2 font-bold">Des conférences et des compétitions</div>
+            <div>
+                <Image src={jdisGames2024} alt="JDIS Games 2024" class="max-h-[90vh] max-w-full rounded" />
+            </div>
+            <p class="text-sm">
+                <span class="font-bold">JDIS Games</span> &mdash; Compétition de programmation d'agents<br />UdeS,
+                juillet 2024
+            </p>
+        </li>
+    </ul>
+
+    <h3 id="partenaires" class="section-title">Nos partenaires de succès</h3>
+    <section class="flex flex-col items-center">
+        <div class="grid max-w-4xl grid-cols-1 gap-8 pb-8">
+            {sponsorsData.filter((s) => s.plan === "i7").map((sponsor) => <SponsorCard sponsor={sponsor} />)}
+        </div>
+        <div class="grid max-w-4xl grid-cols-2 gap-8 pb-8">
+            {sponsorsData.filter((s) => s.plan === "i5").map((sponsor) => <SponsorCard sponsor={sponsor} />)}
+        </div>
+        <div class="grid max-w-4xl grid-cols-2 gap-8 pb-8">
+            {sponsorsData.filter((s) => s.plan === "i3").map((sponsor) => <SponsorCard sponsor={sponsor} />)}
+        </div>
+    </section>
+    <p class="mb-4 max-w-3xl">
+        C'est grâce à nos partenaires que nous arrivons à offrir des opportunités de choix aux étudiants, que ce soit
+        pour nos délégations de compétitions ou lors d'organisation d'événements.
+    </p>
+    <p class="mb-4 max-w-3xl">
+        Vous souhaitez nous appuyer? Jetez un coup d'oeil à notre plan de commandites, et entrez en contact avec nous
+        par courriel au <a
+            href="mailto:info@jdis.ca"
+            class="decoration-jdis-green hover:bg-jdis-green/10 underline transition-colors">info@jdis.ca</a
+        >.
+    </p>
+    <a class="intro__btn--main" href="/pdf/PlanDeCommandite_2023-2024.pdf"><div>Plan de commandite 2023-2024</div></a>
+
+    <h3 id="evenements" class="section-title">Événements à venir</h3>
+    <ul class="grid auto-rows-fr grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {eventsData.filter((event) => event.date_unix > Date.now()).map((event) => <EventCard event={event} />)}
+    </ul>
+
+    <h3 id="reussites" class="section-title">Nos dernières réussites</h3>
+    <div class="mb-8 flex flex-wrap gap-4">
+        {achievementsData.map((achievement) => <AchievementCard achievement={achievement} />)}
+    </div>
+
+    <h3 id="equipe" class="section-title">L'équipe</h3>
+    <div class="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+        {membersData.map((member) => <MemberCard member={member} />)}
+    </div>
+
+    <h3 id="contact" class="section-title">Pour nous rejoindre</h3>
+    <div class="mb-4 flex flex-wrap gap-4">
+        {
+            contactData.social.map((medium) => (
+                <a
+                    href={medium.url}
+                    target="_blank"
+                    class="decoration-jdis-green hover:bg-jdis-green/10 underline transition-colors"
+                >
+                    {medium.label}
+                </a>
+            ))
+        }
+    </div>
+    <div class="text-gray-600">
+        <span class="block">2500 Boulevard de l'Université, Sherbrooke, Qc, Canada</span>
+        <span class="block">D4-1010-25, Université de Sherbrooke</span>
+    </div>
+</PageLayout>
+
+<script>
+    // Events JavaScript functionality
+    document.addEventListener("DOMContentLoaded", function () {
+        // Hide all past events.
+        document.querySelectorAll(".event").forEach((value) => {
+            const element = value as HTMLElement;
+            if (element.dataset.timestamp && parseInt(element.dataset.timestamp) < Date.now()) {
+                element.style.display = "none";
+            }
+        });
+    });
+</script>

@@ -1,0 +1,39 @@
+---
+import "../styles/global.css";
+
+export interface Props {
+    title?: string;
+    description?: string;
+}
+
+const {
+    title = "Jeux et défis informatiques de Sherbrooke (JDIS)",
+    description = "Jeux et défis informatiques de Sherbrooke (JDIS) est un groupe d'étudiants en informatique de l'Université de Sherbrooke.",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>{title}</title>
+        <meta name="description" content={description} />
+
+        <link rel="icon" href="/img/favicon.ico" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+
+    <body class="font-sans">
+        <slot />
+    </body>
+</html>

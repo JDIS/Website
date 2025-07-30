@@ -1,0 +1,62 @@
+---
+// Stripes background component
+---
+
+<div class="stripes absolute inset-0 h-160 overflow-hidden">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<style>
+    .stripes {
+        background: linear-gradient(135deg, #4ade80, #bbf7d0, #f0fdf4);
+        z-index: -1;
+
+        transform: skewY(-10deg);
+        transform-origin: 0;
+    }
+
+    .stripes span {
+        height: 175px;
+        width: 33.33333%;
+    }
+
+    .stripes span:nth-child(1) {
+        background: rgba(0, 128, 0, 0.1);
+        right: 16%;
+        top: 50px;
+        position: absolute;
+    }
+
+    .stripes span:nth-child(2) {
+        height: 200px;
+        background: rgba(76, 207, 53, 0.1);
+        right: -16%;
+        top: 30%;
+        position: absolute;
+    }
+
+    .stripes span:nth-child(3) {
+        background: rgba(0, 0, 0, 0.1);
+        left: -16%;
+        top: 0px;
+        position: absolute;
+    }
+
+    .stripes span:nth-child(4) {
+        background: linear-gradient(90deg, rgba(17, 158, 93, 0.1), rgba(255, 255, 255, 0.1));
+        position: absolute;
+        bottom: 150px;
+        right: 0;
+    }
+
+    .stripes span:nth-child(5) {
+        background: rgba(17, 158, 93, 0.2);
+        position: absolute;
+        bottom: 0;
+    }
+</style>

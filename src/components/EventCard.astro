@@ -1,0 +1,36 @@
+---
+export interface Props {
+    event: {
+        name: string;
+        date: string;
+        date_unix: number;
+        description: string;
+        url?: string;
+    };
+}
+
+const { event } = Astro.props;
+---
+
+<li class="event h-full" data-timestamp={event.date_unix}>
+    <div class="content">
+        <p class="mb-2">
+            <b>{event.name}</b><br />
+            <span class="opacity-50">{event.date}</span>
+        </p>
+        <p class="mb-2">{event.description}</p>
+        {
+            event.url && event.url !== "" && (
+                <p>
+                    <a
+                        target="_blank"
+                        href={event.url}
+                        class="decoration-jdis-green hover:bg-jdis-green/10 underline transition-colors"
+                    >
+                        Plus d'informations →
+                    </a>
+                </p>
+            )
+        }
+    </div>
+</li>

@@ -1,0 +1,27 @@
+{
+    "name": "website",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "format": "prettier --write .",
+        "format:check": "prettier --check ."
+    },
+    "devDependencies": {
+        "@astrojs/sitemap": "^3.4.2",
+        "@tailwindcss/vite": "^4.1.11",
+        "@types/bun": "latest",
+        "astro": "^5.12.5",
+        "prettier": "^3.6.2",
+        "prettier-plugin-astro": "^0.14.1",
+        "prettier-plugin-organize-imports": "^4.2.0",
+        "prettier-plugin-tailwindcss": "^0.6.14",
+        "tailwindcss": "^4.1.11"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    }
+}

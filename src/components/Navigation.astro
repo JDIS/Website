@@ -1,0 +1,26 @@
+---
+import { Image } from "astro:assets";
+import jdisLogo from "../assets/jdis-logo.png";
+---
+
+<nav class="flex items-center">
+    <div class="container mx-auto px-4 py-2 lg:px-8">
+        <a class="no-underline" href="/">
+            <Image
+                src={jdisLogo}
+                alt="JDIS Logo"
+                class="my-8 mr-6 w-20 rounded-lg bg-white/70 p-1"
+                width={80}
+                height={80}
+            />
+        </a>
+        <!--
+    <ul class="inline-flex items-center">
+      <li class="mr-5"><a href="#equipe">L'équipe</a></li>
+      <li class="mr-5"><a href="#evenements">Événements à venir</a></li>
+      <li class="mr-5"><a href="#partenaires">Nos partenaires</a></li>
+      <li class="mr-5"><a href="#contact">Nous joindre</a></li>
+    </ul>
+    -->
+    </div>
+</nav>

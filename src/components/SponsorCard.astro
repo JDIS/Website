@@ -1,0 +1,37 @@
+---
+import { Image } from "astro:assets";
+
+export interface Props {
+    sponsor: {
+        name: string;
+        plan: string;
+        url: string;
+        image_url: string;
+        style?: string;
+    };
+}
+
+const { sponsor } = Astro.props;
+
+// Define size-based classes
+const sizeClasses = {
+    i7: "max-h-28 row-start-1",
+    i5: "max-h-16 row-start-2",
+    i3: "max-h-10 row-start-3",
+} as const;
+
+// Map image URLs to imported assets
+const images = import.meta.glob("../assets/sponsors/*", { eager: true });
+const imagePath = `../assets/sponsors/${sponsor.image_url}`;
+const imageAsset = (images[imagePath] as any)?.default;
+---
+
+<a href={sponsor.url} target="_blank" class="flex items-center justify-center">
+    <Image
+        src={imageAsset}
+        alt={sponsor.name}
+        class={`max-w-full ${sizeClasses[sponsor.plan]}`}
+        style={sponsor.style || ""}
+        inferSize
+    />
+</a>

@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+/* Tailwind CSS v4 Custom Properties */
+@theme {
+    --color-jdis-red: #ff0000;
+    --color-jdis-green: #119e5d;
+    --color-green-custom: #119e5d;
+    --font-sans: CircularStd, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    --spacing-spacer: 20px;
+}
+
+/* Global body font family */
+body {
+    font-family:
+        CircularStd,
+        -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Helvetica,
+        Arial,
+        sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+/* CircularStd @font-face kit - Book (Regular) weight first */
+@font-face {
+    font-family: "CircularStd";
+    src:
+        url("/fonts/CircularStd-Book.woff2") format("woff2"),
+        url("/fonts/CircularStd-Book.woff") format("woff"),
+        url("/fonts/CircularStd-Book.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "CircularStd";
+    src:
+        url("/fonts/CircularStd-Medium.woff2") format("woff2"),
+        url("/fonts/CircularStd-Medium.woff") format("woff"),
+        url("/fonts/CircularStd-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "CircularStd";
+    src:
+        url("/fonts/CircularStd-Bold.woff2") format("woff2"),
+        url("/fonts/CircularStd-Bold.woff") format("woff"),
+        url("/fonts/CircularStd-Bold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Custom component styles that complement Tailwind */
+.intro__main {
+    @apply mb-5 inline text-3xl leading-tight font-bold;
+    background: #e2fff1;
+    padding: 8px 10px 2px;
+    margin: -5px -10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px #e2fff1;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+@media (min-width: 640px) {
+    .intro__main {
+        @apply text-4xl;
+    }
+}
+
+.intro__btn--main {
+    @apply border-0 no-underline;
+    background: initial !important;
+}
+
+.intro__btn--main div {
+    @apply inline-block rounded text-white transition-opacity duration-100;
+    background: linear-gradient(135deg, #58cc72, #119e5d);
+    padding: 1em 2em;
+}
+
+.intro__btn--main div:hover,
+.intro__btn--main div:focus,
+.intro__btn--main div:active {
+    @apply opacity-90;
+}
+
+.section-title {
+    @apply relative border-t border-gray-200 pt-12 tracking-widest uppercase;
+    margin: 40px 0 20px;
+}

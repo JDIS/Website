@@ -1,8 +1,4 @@
 /* CircularStd @font-face kit */
-
-@use "variables" as *;
-@use "sass:color";
-
 @font-face {
   font-family: 'CircularStd';
   src: url('../fonts/CircularStd-Black.eot');
@@ -96,7 +92,7 @@ span a, p a {
 
   &:hover, &:focus {
     border-color: $jdis-green;
-    background: color.scale($jdis-green, $lightness: 60%);
+    background: lighten($jdis-green, 60)
   }
 }
 

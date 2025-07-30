@@ -1,8 +1,6 @@
 // @name Footer
 // @description All footer styles
 
-@use "layout" as *;
-
 .footer {
   margin-top: $spacer * 3;
   padding: ($spacer * 2) $spacer;

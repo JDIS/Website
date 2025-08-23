@@ -6,7 +6,7 @@
   <div class="sponsor-grid">
     {% for s in include.items %}
       {% assign side = forloop.index0 | modulo: 2 %}
-      <article class="sponsor sponsor-{{ s.plan | downcase }} {% if side == 0 %}left{% else %}right{% endif %}">
+      <article class="sponsor sponsor-{{ s.plan | downcase }} sponsor--{{ s.name | slugify }} {% if side == 0 %}left{% else %}right{% endif %}">
         <div class="sponsor-media" {% if s.style %}style="{{ s.style }}"{% endif %}>
           <a href="{{ s.url }}" target="_blank" rel="noopener">
             <img src="{{ s.image_url }}" alt="{{ s.name }}">

@@ -76,3 +76,13 @@
 
 html { hyphens: auto; }
 .sponsor-text { text-align: justify; text-justify: inter-word; }
+
+.sponsor--ubisoft-sherbrooke .sponsor-media{ --w: 380px; --h: 150px; --scale: 1.28; }
+
+@media (max-width:640px){
+  .sponsor--ubisoft-sherbrooke .sponsor-media{
+    --w: 100%;
+    --h: 130px;
+    --scale: 1.05;
+  }
+}

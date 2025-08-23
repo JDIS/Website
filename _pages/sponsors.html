@@ -4,11 +4,42 @@ permalink: /partenaires
 layout: page
 ---
 
-<ul>
-  {% for sponsor in site.data.sponsors %}
-    <div>
-      <img src="/assets/img/sponsors/{{ sponsor.image_url }}"/>
-      {{ sponsor.name }}
+{% comment %} Bannière PARTENAIRE i7 {% endcomment %}
+{% assign premium = site.data.sponsors.premium %}
+{% if premium and premium.size > 0 %}
+<section class="sponsor-banner">
+  {% for p in premium %}
+  <div class="banner">
+    <div class="banner-title"><span>PARTENAIRE {{ p.label }}</span></div>
+    <div class="banner-body">
+      <div class="banner-logo"><img src="{{ p.logo }}" alt="Partenaire {{ p.label }}"></div>
+      <div class="banner-text">{{ p.message }}</div>
     </div>
+  </div>
   {% endfor %}
-</ul>
+</section>
+{% endif %}
+
+<h2 class="section-title">Nos partenaires de succès</h2>
+
+{% comment %} Concat : big (i7) + medium (i5) + small (i3) {% endcomment %}
+{% assign items = site.data.sponsors.big | concat: site.data.sponsors.medium | concat: site.data.sponsors.small %}
+
+<section class="sponsor-grid">
+  {% for s in items %}
+    {% assign side = forloop.index0 | modulo: 2 %}
+    <article class="sponsor sponsor-{{ s.plan | downcase }} {% if side == 0 %}left{% else %}right{% endif %}">
+      <div class="sponsor-media" {% if s.style %}style="{{ s.style }}"{% endif %}>
+        <a href="{{ s.url }}" target="_blank" rel="noopener">
+          <img src="{{ s.image_url }}" alt="{{ s.name }}">
+        </a>
+      </div>
+      <div class="sponsor-content">
+        <h3 class="sponsor-heading">
+          {{ s.name }} <span class="badge">{{ s.plan }}</span>
+        </h3>
+        <div class="sponsor-text">{{ s.message }}</div>
+      </div>
+    </article>
+  {% endfor %}
+</section>

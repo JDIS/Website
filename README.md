@@ -6,7 +6,7 @@ Ce dépôt contient les ressources du site web public de JDIS, accessible à l'a
 
 ### 1. Installer les dépendances globales
 
-Vous devez installer [Ruby](https://www.ruby-lang.org/fr/documentation/installation/).
+Vous devez installer [Ruby](https://www.ruby-lang.org/fr/documentation/installation/) 3.4.5.
 
 Une fois que Ruby est installé, vous devez installer Bundler :
 

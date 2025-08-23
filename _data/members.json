@@ -78,7 +78,7 @@
     "personnalWebsite":"",
     "is_active": true
   },
-    {
+  {
     "name": "Jonas Lépine",
     "title": "VP Compétitions",
     "image_url": "Jonas_Lepine.png",
@@ -97,46 +97,15 @@
     "github": "",
     "personnalWebsite":"",
     "is_active": true
+  },
+  {
+    "name": "Matis Bérubé-Lauzière",
+    "title": "Membre du CE",
+    "image_url": "Matis_Berube_Lauziere.png",
+    "email": "info@jdis.ca",
+    "linkedin": "https://www.linkedin.com/in/matis-bérubé-lauzière/",
+    "github": "https://github.com/AMBLCO",
+    "personnalWebsite":"",
+    "is_active": true
   }
 ]
-
-// {
-//   "name": "Martin Dufour",
-//   "title": "VP Compétitions",
-//   "image_url": "Martin_Dufour.png",
-//   "email": "info@jdis.ca",
-//   "linkedin":"",
-//   "github":"",
-//   "personnalWebsite":"",
-//   "is_active": true
-// }
-  // {
-  //   "name": "Timothy Landry",
-  //   "title": "VP Sponsors",
-  //   "image_url": "timothy.jpeg",
-  //   "email": "vp.commandites@jdis.ca",
-  //   "is_active": true
-  // }
-  // {
-  //   "name": "Andy Chartier",
-  //   "title": "Vice-président",
-  //   "email": "vice.president@jdis.ca",
-  //   "image_url": "andy.jpg",
-  //   "is_active": true
-  // },
-  // {
-  //   "name": "Malcolm St. John",
-  //   "title": "Trésorier",
-  //   "image_url": "malcolm.jpg",
-  //   "email": "tresorier@jdis.ca",
-  //   "is_active": true
-  // },
-
-
-  // {
-  //   "name": "A trouver",
-  //   "title": "VP Conférences",
-  //   "image_url": "placeholder.png",
-  //   "email": "vp.conferences@jdis.ca",
-  //   "is_active": false
-  // }

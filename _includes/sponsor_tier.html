@@ -1,0 +1,22 @@
+<section class="sponsor-tier sponsor-tier--{{ include.tier }}">
+  <div class="tier-head">
+    <span class="tier-chip">PARTENAIRES {{ include.tier | upcase }}</span>
+  </div>
+
+  <div class="sponsor-grid">
+    {% for s in include.items %}
+      {% assign side = forloop.index0 | modulo: 2 %}
+      <article class="sponsor sponsor-{{ s.plan | downcase }} {% if side == 0 %}left{% else %}right{% endif %}">
+        <div class="sponsor-media" {% if s.style %}style="{{ s.style }}"{% endif %}>
+          <a href="{{ s.url }}" target="_blank" rel="noopener">
+            <img src="{{ s.image_url }}" alt="{{ s.name }}">
+          </a>
+        </div>
+        <div class="sponsor-content">
+          <h3 class="sponsor-heading">{{ s.name }} <span class="badge">{{ s.plan }}</span></h3>
+          <div class="sponsor-text">{{ s.message }}</div>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>

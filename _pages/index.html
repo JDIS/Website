@@ -33,50 +33,36 @@ layout: page
   <li>
     <div class="photo-title">Des midis-conférences à l'UdeS</div>
     <div>
-      <img src="/assets/img/photos/p_7.jpg" alt="Midi-conférence présenté par Team LFX">
+      <img src="/assets/img/photos/p_9.jpg" alt="Midi-conférence présenté par Ubisoft Sherbrooke">
     </div>
-    <p class="small-text"><span style="font-weight: bold; font-style: italic">Devenir travailleur autonome</span>, par Team LFX<br>UdeS, septembre 2024</p>
+    <p class="small-text"><span style="font-weight: bold; font-style: italic">La lutte contre la toxicité dans le jeu vidéo grâce à l'IA</span>, par Ubisoft Sherbrooke<br>UdeS, juillet 2025</p>
   </li>
   <li>
     <div class="photo-title">Des délégations aux événements externes</div>
     <div>
-      <img src="/assets/img/photos/p_8.jpg" alt="NorthSec CTF 2024">
+      <img src="/assets/img/photos/p_10.jpg" alt="NorthSec CTF 2025">
     </div>
-    <p class="small-text"><span style="font-weight: bold">NorthSec</span> &mdash; Compétition de sécurité informatique<br>Montréal, mai 2024</p>
+    <p class="small-text"><span style="font-weight: bold">NorthSec</span> &mdash; Compétition de sécurité informatique<br>Montréal, mai 2025</p>
   </li>
   <li>
     <div class="photo-title">Des conférences et des compétitions</div>
     <div>
-      <img src="/assets/img/photos/p_6.jpg" alt="JDIS Games 2024">
+      <img src="/assets/img/photos/p_11.jpg" alt="JDIS Games 2025">
     </div>
-    <p class="small-text"><span style="font-weight: bold">JDIS Games</span> &mdash; Compétition de programmation d'agents<br>UdeS, juillet 2024</p>
+    <p class="small-text"><span style="font-weight: bold">JDIS Games</span> &mdash; Compétition de programmation d'agents<br>UdeS, juillet 2025</p>
   </li>
 </ul>
 
 <h3 id="partenaires" class="section-title">Nos partenaires de succès</h3>
-<section class="flex-x-center">
-  <div class="grid i7" style="padding-bottom: 2rem;">
-    {% for sponsor in site.data.sponsors.big %}
-        <a href="{{ sponsor.url }}"target="_blank">
-          <img style="{{ sponsor.style }}"  src="{{ sponsor.image_url }}" />
-        </a>
-    {% endfor %}
-      </div>
-  <div class="grid i5" style="padding-bottom: 2rem;">
-    {% for sponsor in site.data.sponsors.medium %}
-        <a href="{{ sponsor.url }}" target="_blank">
-          <img src="{{ sponsor.image_url }}" />
-        </a>
-    {% endfor %}
-      </div>
-  <div class="grid i3" style="padding-bottom: 2rem;">
-    {% for sponsor in site.data.sponsors.small %}
-        <a href="{{ sponsor.url }}" target="_blank">
-          <img src="{{ sponsor.image_url }}" />
-        </a>
-    {% endfor %}
-      </div>
-</section>
+
+{% assign i7 = site.data.sponsors.big %}
+{% assign i5 = site.data.sponsors.medium %}
+{% assign i3 = site.data.sponsors.small %}
+
+{% include sponsor_tier.html title='Partenaires i7' items=i7 tier='i7' %}
+{% include sponsor_tier.html title='Partenaires i5' items=i5 tier='i5' %}
+{% include sponsor_tier.html title='Partenaires i3' items=i3 tier='i3' %}
+
 <p class="narrow">
   C'est grâce à nos partenaires que nous arrivons à offrir des opportunités de choix aux étudiants, que ce soit pour nos délégations de compétitions ou lors d'organisation d'événements.
 </p>

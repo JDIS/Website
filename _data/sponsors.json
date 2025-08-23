@@ -1,11 +1,21 @@
 {
   "big": [
     {
-      "name": "team LFX Cabinet de services financiers",
+      "name": "Team LFX Cabinet de services financiers",
       "plan": "i7",
       "url": "https://www.teamlfx.com/",
       "image_url": "/assets/img/sponsors/lfx.png",
-      "style": "background-color: #1f1f1f;"
+      "style": "background-color: #1f1f1f;",
+      "words": 150,
+      "message": "LFX est un cabinet de services financiers indépendant, spécialisé auprès des professionnels et entrepreneurs du secteur technologique.\n\n Ils accompagnent les finissants, salariés, fondateurs et consultants en technologie pour les aider à comprendre le domaine financier et à prendre des décisions rentables et éclairées.\n\n Grâce à une approche personnalisée, LFX propose des stratégies innovantes et objectives pour optimiser les finances personnelles et corporatives de leurs clients. Leur mission est de simplifier la gestion financière afin de permettre aux professionnels de l’informatique de se concentrer sur leur emploi sans se soucier de leur finance."
+    },
+    {
+      "name": "Wolters Kluwer",
+      "plan": "i7",
+      "url": "https://www.wolterskluwer.com/fr-ca",
+      "image_url": "/assets/img/sponsors/wolters_kluwer.svg",
+      "words": 150,
+      "message": "Wolters Kluwer est un fournisseur mondial de produits d'information, de solutions logicielles et de services pour les cliniciens, les infirmiers, les comptables, les avocats et les professionnels des secteurs de la fiscalité, des finances, de l'audit, de la gestion du risque, de la conformité et de la réglementation. \n\n Forte de plus de 180 ans d'expertise, l'entreprise opère dans plus de 180 pays et s'appuie sur une équipe de plus de 20 000 employés à travers le monde. Wolters Kluwer se distingue par son engagement à fournir des solutions expertes qui combinent une connaissance approfondie des domaines d'affaires avec des technologies spécialisées et des services à haute valeur ajoutée. \n\n Son approche axée sur l'innovation, la rigueur et la précision permet aux professionnels de naviguer dans des environnements complexes en toute confiance, en prenant des décisions critiques éclairées, fondées sur des données fiables et des outils technologiques performants."
     }
   ],
   "medium": [
@@ -13,34 +23,28 @@
       "name": "Innovmetric",
       "plan": "i5",
       "url": "https://www.innovmetric.com/",
-      "image_url": "/assets/img/sponsors/innovmetric.svg"
-    },
-    {
-      "name": "Wolters Kluwer",
-      "plan": "i5",
-      "url": "https://www.wolterskluwer.com/fr-ca",
-      "image_url": "/assets/img/sponsors/wolters_kluwer.svg"
+      "image_url": "/assets/img/sponsors/innovmetric.svg",
+      "words": 100,
+      "message": "InnovMetric est une firme talentueuse de développement de logiciels qui contribue au succès des plus grandes entreprises de fabrication industrielle. Depuis son siège social à Québec, l’entreprise rayonne à l’international grâce à l’implication de plus de 550 professionnels répartis dans 16 bureaux autour du monde. \n\n Pionnière de l’inspection basée sur les nuages de points, InnovMetric a également inventé le concept d’une plateforme logicielle universelle de métrologie 3D, intégrant technologies avancées, connectivité numérique et gestion des données dimensionnelles à grande échelle."
     },
     {
       "name": "Ubisoft Sherbrooke",
       "plan": "i5",
-      "url": "https://quebec.ubisoft.com/fr/",
-      "image_url": "/assets/img/sponsors/ubisoft_sherbrooke.svg"
-    },
-    {
-      "name": "Coveo",
-      "plan": "i5",
-      "url": "https://www.coveo.com/fr",
-      "image_url": "/assets/img/sponsors/coveo.svg"
+      "url": "https://sherbrooke.ubisoft.com/fr/",
+      "image_url": "/assets/img/sponsors/ubisoft_sherbrooke.svg",
+      "words": 100,
+      "message": "Ubisoft Sherbrooke est bien plus qu’un studio de jeux vidéo : c’est une communauté d’expert·e·s passionné·e·s réunie pour enrichir la vie des joueur.euse.s. Situé au cœur de l’Estrie, le studio offre un environnement de travail humain, flexible et collaboratif, où l’innovation et la créativité sont au centre de chaque projet. \n\n Le studio se distingue par son engagement à repousser les limites de l’art, de la technologie et du storytelling. Grâce à des méthodes entrepreneuriales et des ressources dédiées, Ubisoft Sherbrooke favorise l’émergence d’idées novatrices et permet à chaque membre de l’équipe de se dépasser pour créer des expériences de jeu inspirantes.",
+      "style": "--w: 380px; --h: 150px; --scale: 1.28;"
     }
-    
   ],
   "small": [
     {
-      "name": "Université de Sherbrooke",
+      "name": "Coveo",
       "plan": "i3",
-      "url": "https://www.usherbrooke.ca/",
-      "image_url": "/assets/img/sponsors/udes.svg"
+      "url": "https://www.coveo.com/fr",
+      "image_url": "/assets/img/sponsors/coveo.svg",
+      "words": 50,
+      "message": "Coveo est une entreprise québécoise innovante, spécialisée dans l’intelligence artificielle appliquée à la recherche, aux recommandations et à la personnalisation. \n\n Sa mission est d’aider les organisations à offrir des expériences numériques intelligentes, adaptées aux besoins de chaque utilisateur. \n\n Grâce à sa plateforme alimentée par l’IA, Coveo permet à chacun – clients, employés ou partenaires – d’accéder instantanément à l’information la plus pertinente."
     }
   ]
 }

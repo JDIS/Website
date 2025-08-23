@@ -1,0 +1,78 @@
+.sponsor-tier { 
+  --accent: #111; 
+  --bg: #f9f9f9;
+  margin: 3.5rem auto; 
+  padding: 1.25rem 1rem 1.75rem; 
+  border-radius: 12px; 
+  background: var(--bg);
+  border-left: 6px solid var(--accent);
+}
+
+.sponsor-tier--i7 { --accent:#111; --bg: #f6f6f6; }
+.sponsor-tier--i5 { --accent:#444; --bg: #f8f8f8; }
+.sponsor-tier--i3 { --accent:#6a6a6a; --bg: #fbfbfb; }
+
+.tier-head { 
+  display:flex; align-items:center; gap:.75rem; 
+  margin: .25rem 0 1.25rem; 
+}
+.tier-chip { 
+  font-weight:800; letter-spacing:.06em; 
+  text-transform:uppercase; 
+  background:#111; color:#fff; 
+  padding:.25rem .6rem; border-radius:.35rem;
+}
+
+/* plus d’air entre cartes */
+.sponsor-grid { max-width:1200px; margin:0 auto; display:grid; gap: 3rem; }
+
+/* layout + sizing */
+.sponsor { display:grid; grid-template-columns:1fr 1.4fr; gap:2rem; align-items:center; }
+.sponsor.right { grid-template-columns:1.4fr 1fr; }
+.sponsor.right .sponsor-media { order:2; }
+
+/* boîte logo */
+.sponsor-media, .sponsor-media > a { display:flex; justify-content:center; align-items:center; width:var(--w,360px); height:var(--h,130px); }
+.sponsor-i7 .sponsor-media { --w: 420px; --h: 160px; }
+.sponsor-i5 .sponsor-media { --w: 320px; --h: 120px; }
+.sponsor-i3 .sponsor-media { --w: 260px; --h: 100px; }
+
+.sponsor-media img { max-width:100%; max-height:100%; object-fit:contain; transform:scale(var(--scale,1)); }
+
+/* texte */
+.sponsor-heading { margin:0 0 .4rem; font-size:1.05rem; font-weight:700; }
+.badge { font-size:.8rem; background:#222; color:#fff; padding:.1rem .4rem; border-radius:.25rem; margin-left:.4rem; }
+.sponsor-i7 .sponsor-text { font-size:1.02rem; line-height:1.6; }
+.sponsor-i5 .sponsor-text { font-size:1.0rem;  line-height:1.6; }
+.sponsor-i3 .sponsor-text { font-size:.97rem;  line-height:1.55; }
+
+/* responsive */
+@media (max-width:900px){
+  .sponsor, .sponsor.right { grid-template-columns:1fr; }
+  .sponsor.right .sponsor-media { order:0; }
+  .sponsor-i7 .sponsor-media { --w:100%; --h:150px; }
+  .sponsor-i5 .sponsor-media { --w:100%; --h:130px; }
+  .sponsor-i3 .sponsor-media { --w:100%; --h:110px; }
+}
+
+.sponsor-tier--i7 { --accent: #b8860b; --bg: #fff8e1; }   /* GOLD */
+.sponsor-tier--i5 { --accent: #8f8f8f; --bg: #f5f6f7; }   /* SILVER */
+.sponsor-tier--i3 { --accent: #a5571e; --bg: #fff2e7; }   /* BRONZE */
+
+.sponsor-tier--i7 .tier-chip{
+  background: linear-gradient(135deg,#ffec99 0%,#f2c94c 35%,#b8860b 100%);
+  color:#111; border:1px solid #8f6709; box-shadow:0 1px 0 rgba(0,0,0,.08);
+}
+.sponsor-tier--i5 .tier-chip{
+  background: linear-gradient(135deg,#f2f2f2 0%,#d9d9d9 40%,#a6a6a6 100%);
+  color:#111; border:1px solid #8a8a8a; box-shadow:0 1px 0 rgba(0,0,0,.07);
+}
+.sponsor-tier--i3 .tier-chip{
+  background: linear-gradient(135deg,#ffd6b0 0%,#cd7f32 45%,#8a4b16 100%);
+  color:#fff; border:1px solid #7a4113; box-shadow:0 1px 0 rgba(0,0,0,.08);
+}
+
+.sponsor-content { max-width: 65ch; margin-inline: auto; }
+
+html { hyphens: auto; }
+.sponsor-text { text-align: justify; text-justify: inter-word; }
